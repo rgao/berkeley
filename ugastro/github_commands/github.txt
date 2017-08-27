@@ -1,0 +1,11 @@
+how to push and commit and stuff to git
+
+1. go to relevant directory
+2. 'git init'
+e. 'git fetch' - checking to make sure updated with online version
+3a. if pushing directory - 'git add directory', and 'git add
+directory/*'
+3b 'git add [filename 1] [filename 2] ...'
+4. 'git commit -m '[string]' '
+5. 'git push -u origin master' 
+

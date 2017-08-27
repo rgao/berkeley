@@ -1,0 +1,14 @@
+import numpy as np
+import pickle
+import pylab as plt
+
+d = pickle.load(open("specs.pkl","rb")
+y = d[66.0,-72.0]
+
+a = y[0][1][0] #online, caloff
+b = y[0][1][1] #online, calon
+c = y[0][1][2] #offline, caloff
+d = y[0][1][3] #offline, calon
+
+T = a[0]/c[0]*np.sum(c)/np.sum(d-c)
+x = np.array(np.arange(1415003000,1424997000,10000000/8192)

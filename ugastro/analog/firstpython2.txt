@@ -1,0 +1,1067 @@
+cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on rawr.pdf (9 pages, 149476 bytes).
+Transcript written on rawr.log.
+aldebaran.ugastro.berkeley.edu>/home/xgao% okular rawr.pdf
+aldebaran.ugastro.berkeley.edu>/home/xgao% emacs rawr.tex
+
+(emacs:11387): Gtk-WARNING **: gtk_window_parse_geometry() called on a window with no visible children; the window should be set up before gtk_window_parse_geometry() is called.
+aldebaran.ugastro.berkeley.edu>/home/xgao% pdflatex rawr.tex
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux)
+ restricted \write18 enabled.
+entering extended mode
+(./rawr.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nyn
+orsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbia
+nc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorb
+ian, welsh, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/float/float.sty) (./rawr.aux)
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty)))
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf/tex/latex/base/omscmr.fd)
+Overfull \hbox (1.64131pt too wide) in paragraph at lines 36--39
+[]\OT1/cmr/m/n/12 Impedance (Z): re-places re-sis-tance in the gen-er-al-ized O
+hm's Law. While
+
+Overfull \hbox (0.31354pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/12 re-sis-tors have re-sis-tance, ca-pac-i-tors and in-duc-tors ha
+ve re-ac-tance. They
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<fm_demodulation.png, id=10, 215.23033pt x 84.51247pt>
+<use fm_demodulation.png> [2 <./fm_demodulation.png>] [3]
+<amplifier.png, id=21, 103.86345pt x 75.82426pt> <use amplifier.png> [4]
+[5 <./amplifier.png>] [6]
+
+LaTeX Warning: File `low pass filter.png' not found on input line 209.
+
+<low pass filter.png, id=31, 586.8324pt x 442.2924pt>
+<use low pass filter.png> [7] [8 <./low pass filter.png>] [9] (./rawr.aux) )
+(see the transcript file for additional information)</usr/share/texmf/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on rawr.pdf (9 pages, 149486 bytes).
+Transcript written on rawr.log.
+aldebaran.ugastro.berkeley.edu>/home/xgao% okular rawr.pdf
+^C
+aldebaran.ugastro.berkeley.edu>/home/xgao% emacs rawr.tex
+
+(emacs:11451): Gtk-WARNING **: gtk_window_parse_geometry() called on a window with no visible children; the window should be set up before gtk_window_parse_geometry() is called.
+aldebaran.ugastro.berkeley.edu>/home/xgao% pdflatex rawr.tex
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux)
+ restricted \write18 enabled.
+entering extended mode
+(./rawr.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nyn
+orsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbia
+nc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorb
+ian, welsh, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/float/float.sty) (./rawr.aux)
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty)))
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf/tex/latex/base/omscmr.fd)
+Overfull \hbox (1.64131pt too wide) in paragraph at lines 36--39
+[]\OT1/cmr/m/n/12 Impedance (Z): re-places re-sis-tance in the gen-er-al-ized O
+hm's Law. While
+
+Overfull \hbox (0.31354pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/12 re-sis-tors have re-sis-tance, ca-pac-i-tors and in-duc-tors ha
+ve re-ac-tance. They
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<fm_demodulation.png, id=10, 215.23033pt x 84.51247pt>
+<use fm_demodulation.png> [2 <./fm_demodulation.png>] [3]
+<amplifier.png, id=21, 103.86345pt x 75.82426pt> <use amplifier.png> [4]
+[5 <./amplifier.png>] [6]
+
+LaTeX Warning: File `low pass filter.png' not found on input line 209.
+
+<low pass filter.png, id=31, 586.8324pt x 442.2924pt>
+<use low pass filter.png> [7] [8 <./low pass filter.png>] [9] (./rawr.aux) )
+(see the transcript file for additional information)</usr/share/texmf/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on rawr.pdf (9 pages, 149486 bytes).
+Transcript written on rawr.log.
+aldebaran.ugastro.berkeley.edu>/home/xgao% okular rawr.pdf
+aldebaran.ugastro.berkeley.edu>/home/xgao% emacs rawr.tex
+
+(emacs:11545): Gtk-WARNING **: gtk_window_parse_geometry() called on a window with no visible children; the window should be set up before gtk_window_parse_geometry() is called.
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+i
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V_2(f):
+   ...:     (.00002*w)/(234*np.abs(.0000000000002*w^2-1) + .00002*w)
+   ...:   
+
+In [4]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V_2(w):
+    (.00002*w)/(234*np.abs(.0000000000002*w^2-1) + .00002*w)
+   ...:     
+
+In [4]: w = np.arange[0, 10000000, 1]
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-4-9e818372e4c6> in <module>()
+----> 1 w = np.arange[0, 10000000, 1]
+
+TypeError: 'builtin_function_or_method' object has no attribute '__getitem__'
+
+In [5]: w = np.arange(0, 10000000, 1)
+
+In [6]: plt.plot(w, V(w))
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-6-527485418879> in <module>()
+----> 1 plt.plot(w, V(w))
+
+NameError: name 'V' is not defined
+
+In [7]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-7-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-3-0cb309c9c4ea> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/(234*np.abs(.0000000000002*w^2-1) + .00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [8]: def V_2(w):
+    (.00002.*w)/(234.*np.abs(.0000000000002.*w^2-1) + .00002.*w)
+   ...:     
+  File "<ipython-input-8-938280218e57>", line 2
+    (.00002.*w)/(234.*np.abs(.0000000000002.*w^2-1) + .00002.*w)
+            ^
+SyntaxError: invalid syntax
+
+
+In [9]: def V_2(w):
+    (.00002*w)/(234*np.abs(.0000000000002*w^2.-1.) + .00002*w)
+   ...:     
+
+In [10]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-10-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-9-8f074988efb0> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/(234*np.abs(.0000000000002*w^2.-1.) + .00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [11]: def V_2(w):
+    (.00002*w)/(234*np.abs(.0000000000002*w^2.0-1.0) + .00002*w)
+   ....:     
+
+In [12]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-12-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-11-a49cb1f347e6> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/(234*np.abs(.0000000000002*w^2.0-1.0) + .00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [13]: def V_2(w):
+    (.00002*w)/(234.0*np.abs(.0000000000002*w^2.0-1.0) + .00002*w)
+   ....:     
+
+In [14]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-14-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-13-c04a5e664a24> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/(234.0*np.abs(.0000000000002*w^2.0-1.0) + .00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [15]: def V_2(w):
+    (.00002*w)
+   ....:     
+
+In [16]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-16-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+/usr/lib64/python2.7/site-packages/matplotlib/pyplot.pyc in plot(*args, **kwargs)
+   2815         ax.hold(hold)
+   2816     try:
+-> 2817         ret = ax.plot(*args, **kwargs)
+   2818         draw_if_interactive()
+   2819     finally:
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in plot(self, *args, **kwargs)
+   3994         lines = []
+   3995 
+-> 3996         for line in self._get_lines(*args, **kwargs):
+   3997             self.add_line(line)
+   3998             lines.append(line)
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _grab_next_args(self, *args, **kwargs)
+    328                 return
+    329             if len(remaining) <= 3:
+--> 330                 for seg in self._plot_args(remaining, kwargs):
+    331                     yield seg
+    332                 return
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _plot_args(self, tup, kwargs)
+    306             x = np.arange(y.shape[0], dtype=float)
+    307 
+--> 308         x, y = self._xy_from_xy(x, y)
+    309 
+    310         if self.command == 'plot':
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _xy_from_xy(self, x, y)
+    246         y = np.atleast_1d(y)
+    247         if x.shape[0] != y.shape[0]:
+--> 248             raise ValueError("x and y must have same first dimension")
+    249         if x.ndim > 2 or y.ndim > 2:
+    250             raise ValueError("x and y can be no greater than 2-D")
+
+ValueError: x and y must have same first dimension
+
+In [17]: def V_2(w):
+    (.00002*w)/(234.0*np.abs(0.0000000000002*w^2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [18]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-18-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-17-b82ef3e3f909> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/(234.0*np.abs(0.0000000000002*w^2.0-1.0) + 0.00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [19]: def V_2(w):
+    (.00002*w)/(234.0*np.abs(2s-14*w^2.0-1.0) + 0.00002*w)
+   ....:     c
+
+KeyboardInterrupt
+
+In [19]: def V_2(w):
+    (.00002*w)/(234.0*np.abs(2e-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [20]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-20-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-19-d65803f9413a> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/(234.0*np.abs(2e-14*w^2.0-1.0) + 0.00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [21]: def V_2(w):
+    (.00002*w)/(234.0*np.abs(2d-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+  File "<ipython-input-21-eb9e6c32c8d1>", line 2
+    (.00002*w)/(234.0*np.abs(2d-14*w^2.0-1.0) + 0.00002*w)
+                              ^
+SyntaxError: invalid syntax
+
+
+In [22]: def V_2(w):
+    (.00002*w)/((234.0*2e-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [23]: def V_2(w):
+    (.00002*w)/(234.0*np.abs(2d-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+
+KeyboardInterrupt
+
+In [23]: def V_2(w):
+    (.00002*w)/((234.0*2e-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [24]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-24-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-23-d45028bdd0e9> in V_2(w)
+      1 def V_2(w):
+----> 2     (.00002*w)/((234.0*2e-14*w^2.0-1.0) + 0.00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [25]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2d-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+  File "<ipython-input-25-f5d0916a4082>", line 2
+    (0.00002*w)/(234.0*np.abs(2d-14*w^2.0-1.0) + 0.00002*w)
+                               ^
+SyntaxError: invalid syntax
+
+
+In [26]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2e-14*w^2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [27]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-27-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+<ipython-input-26-d8cef02fc8e1> in V_2(w)
+      1 def V_2(w):
+----> 2     (0.00002*w)/(234.0*np.abs(2e-14*w^2.0-1.0) + 0.00002*w)
+      3 
+
+TypeError: ufunc 'bitwise_xor' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+In [28]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2e-14*w-1.0) + 0.00002*w)
+   ....:     
+
+In [29]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-29-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+/usr/lib64/python2.7/site-packages/matplotlib/pyplot.pyc in plot(*args, **kwargs)
+   2815         ax.hold(hold)
+   2816     try:
+-> 2817         ret = ax.plot(*args, **kwargs)
+   2818         draw_if_interactive()
+   2819     finally:
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in plot(self, *args, **kwargs)
+   3994         lines = []
+   3995 
+-> 3996         for line in self._get_lines(*args, **kwargs):
+   3997             self.add_line(line)
+   3998             lines.append(line)
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _grab_next_args(self, *args, **kwargs)
+    328                 return
+    329             if len(remaining) <= 3:
+--> 330                 for seg in self._plot_args(remaining, kwargs):
+    331                     yield seg
+    332                 return
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _plot_args(self, tup, kwargs)
+    306             x = np.arange(y.shape[0], dtype=float)
+    307 
+--> 308         x, y = self._xy_from_xy(x, y)
+    309 
+    310         if self.command == 'plot':
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _xy_from_xy(self, x, y)
+    246         y = np.atleast_1d(y)
+    247         if x.shape[0] != y.shape[0]:
+--> 248             raise ValueError("x and y must have same first dimension")
+    249         if x.ndim > 2 or y.ndim > 2:
+    250             raise ValueError("x and y can be no greater than 2-D")
+
+ValueError: x and y must have same first dimension
+
+In [30]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [31]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-31-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+/usr/lib64/python2.7/site-packages/matplotlib/pyplot.pyc in plot(*args, **kwargs)
+   2815         ax.hold(hold)
+   2816     try:
+-> 2817         ret = ax.plot(*args, **kwargs)
+   2818         draw_if_interactive()
+   2819     finally:
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in plot(self, *args, **kwargs)
+   3994         lines = []
+   3995 
+-> 3996         for line in self._get_lines(*args, **kwargs):
+   3997             self.add_line(line)
+   3998             lines.append(line)
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _grab_next_args(self, *args, **kwargs)
+    328                 return
+    329             if len(remaining) <= 3:
+--> 330                 for seg in self._plot_args(remaining, kwargs):
+    331                     yield seg
+    332                 return
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _plot_args(self, tup, kwargs)
+    306             x = np.arange(y.shape[0], dtype=float)
+    307 
+--> 308         x, y = self._xy_from_xy(x, y)
+    309 
+    310         if self.command == 'plot':
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _xy_from_xy(self, x, y)
+    246         y = np.atleast_1d(y)
+    247         if x.shape[0] != y.shape[0]:
+--> 248             raise ValueError("x and y must have same first dimension")
+    249         if x.ndim > 2 or y.ndim > 2:
+    250             raise ValueError("x and y can be no greater than 2-D")
+
+ValueError: x and y must have same first dimension
+
+In [32]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+   ....:     
+
+In [33]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% emacs rawr.tex
+
+(emacs:12127): Gtk-WARNING **: gtk_window_parse_geometry() called on a window with no visible children; the window should be set up before gtk_window_parse_geometry() is called.
+^[[Aaldebaran.ugastro.berkeley.edu>/home/xgao% emacs rawr.tex ipython
+
+(emacs:12135): Gtk-WARNING **: gtk_window_parse_geometry() called on a window with no visible children; the window should be set up before gtk_window_parse_geometry() is called.
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+   ...:     
+
+In [4]: w = np.arange(0, 10000000, 1)
+
+In [5]: plt.title(RLC Bandpass Filter)
+  File "<ipython-input-5-a0d346b53051>", line 1
+    plt.title(RLC Bandpass Filter)
+                         ^
+SyntaxError: invalid syntax
+
+
+In [6]: plt.title{RLC Bandpass Filter}
+  File "<ipython-input-6-5c6f3e94cd54>", line 1
+    plt.title{RLC Bandpass Filter}
+             ^
+SyntaxError: invalid syntax
+
+
+In [7]: plt.title[RLC Bandpass Filter]
+  File "<ipython-input-7-9edde18862bb>", line 1
+    plt.title[RLC Bandpass Filter]
+                         ^
+SyntaxError: invalid syntax
+
+
+In [8]: plt.title('RLC Bandpass Filter')
+Out[8]: <matplotlib.text.Text at 0x3d07f10>
+
+In [9]: plt.xlabel('$V_{out}/V_{in}$')
+Out[9]: <matplotlib.text.Text at 0x3a075d0>
+
+In [10]: plt.xlabel('Frequency (Hz)')
+Out[10]: <matplotlib.text.Text at 0x3a075d0>
+
+In [11]: plt.ylabel('$V_{out}/V_{in}$')
+Out[11]: <matplotlib.text.Text at 0x3cfb090>
+
+In [12]: plt.axis([0, 200000, 0, 1])
+Out[12]: [0, 200000, 0, 1]
+
+In [13]: plt.axis([0, 10000000, 0, 1])
+Out[13]: [0, 10000000, 0, 1]
+
+In [14]: plt.plot(w, V_2(w))
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-14-cb87907fc1b3> in <module>()
+----> 1 plt.plot(w, V_2(w))
+
+/usr/lib64/python2.7/site-packages/matplotlib/pyplot.pyc in plot(*args, **kwargs)
+   2815         ax.hold(hold)
+   2816     try:
+-> 2817         ret = ax.plot(*args, **kwargs)
+   2818         draw_if_interactive()
+   2819     finally:
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in plot(self, *args, **kwargs)
+   3994         lines = []
+   3995 
+-> 3996         for line in self._get_lines(*args, **kwargs):
+   3997             self.add_line(line)
+   3998             lines.append(line)
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _grab_next_args(self, *args, **kwargs)
+    328                 return
+    329             if len(remaining) <= 3:
+--> 330                 for seg in self._plot_args(remaining, kwargs):
+    331                     yield seg
+    332                 return
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _plot_args(self, tup, kwargs)
+    306             x = np.arange(y.shape[0], dtype=float)
+    307 
+--> 308         x, y = self._xy_from_xy(x, y)
+    309 
+    310         if self.command == 'plot':
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in _xy_from_xy(self, x, y)
+    246         y = np.atleast_1d(y)
+    247         if x.shape[0] != y.shape[0]:
+--> 248             raise ValueError("x and y must have same first dimension")
+    249         if x.ndim > 2 or y.ndim > 2:
+    250             raise ValueError("x and y can be no greater than 2-D")
+
+ValueError: x and y must have same first dimension
+
+In [15]: w
+Out[15]: array([      0,       1,       2, ..., 9999997, 9999998, 9999999])
+
+In [16]: w.size
+Out[16]: 10000000
+
+In [17]: V_2(w).size
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-17-bca151df3a9b> in <module>()
+----> 1 V_2(w).size
+
+AttributeError: 'NoneType' object has no attribute 'size'
+
+In [18]: V_2(w).length
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-18-5e1712892259> in <module>()
+----> 1 V_2(w).length
+
+AttributeError: 'NoneType' object has no attribute 'length'
+
+In [19]: y = V_2(w)
+
+In [20]: y.length
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-20-c96b709858ff> in <module>()
+----> 1 y.length
+
+AttributeError: 'NoneType' object has no attribute 'length'
+
+In [21]: def V_2(w):
+    (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+   ....: 
+
+KeyboardInterrupt
+
+In [21]: def V_2(w):                                        
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+   ....:     return y
+   ....: 
+
+In [22]: y = V_2(w)
+
+In [23]: y.length
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-23-c96b709858ff> in <module>()
+----> 1 y.length
+
+AttributeError: 'numpy.ndarray' object has no attribute 'length'
+
+In [24]: y.len()
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-24-0204f697b8f8> in <module>()
+----> 1 y.len()
+
+AttributeError: 'numpy.ndarray' object has no attribute 'len'
+
+In [25]: y.
+y.T             y.base          y.copy          y.dtype         y.getfield      y.min           y.put           y.searchsorted  y.std           y.tostring      
+y.all           y.byteswap      y.ctypes        y.dump          y.imag          y.nbytes        y.ravel         y.setfield      y.strides       y.trace         
+y.any           y.choose        y.cumprod       y.dumps         y.item          y.ndim          y.real          y.setflags      y.sum           y.transpose     
+y.argmax        y.clip          y.cumsum        y.fill          y.itemset       y.newbyteorder  y.repeat        y.shape         y.swapaxes      y.var           
+y.argmin        y.compress      y.data          y.flags         y.itemsize      y.nonzero       y.reshape       y.size          y.take          y.view          
+y.argsort       y.conj          y.diagonal      y.flat          y.max           y.prod          y.resize        y.sort          y.tofile        
+y.astype        y.conjugate     y.dot           y.flatten       y.mean          y.ptp           y.round         y.squeeze       y.tolist        
+
+In [25]: y.size
+Out[25]: 10000000
+
+In [26]: w = np.arange(0, 10000000, 1)
+
+In [27]: plt.title('RLC Bandpass Filter')
+Out[27]: <matplotlib.text.Text at 0x3d07f10>
+
+In [28]: plt.xlabel('Frequency (Hz)')
+Out[28]: <matplotlib.text.Text at 0x3a075d0>
+
+In [29]: plt.ylabel('$V_{out}/V_{in}$')
+Out[29]: <matplotlib.text.Text at 0x3cfb090>
+
+In [30]: plt.axis([0, 10000000, 0, 1])
+Out[30]: [0, 10000000, 0, 1]
+
+In [31]: plt.plot(w, V_2(w))
+Out[31]: [<matplotlib.lines.Line2D at 0x29d75d0>]
+
+In [32]: plt.show()
+^[[A
+In [33]: plt.axis([0, 20000000, 0, 1])
+Out[33]: [0, 20000000, 0, 1]
+
+In [34]: plt.axis([0, 20000000, 0, 1.5])
+Out[34]: [0, 20000000, 0, 1.5]
+
+In [35]: plt.show()
+
+In [36]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [37]: w = np.arange(0, 10000000, 1)
+
+In [38]: plt.title('RLC Bandpass Filter')
+Out[38]: <matplotlib.text.Text at 0x3f51fd0>
+
+In [39]: plt.xlabel('Frequency (Hz)')
+Out[39]: <matplotlib.text.Text at 0x43f78d0>
+
+In [40]: plt.ylabel('$V_{out}/V_{in}$')
+Out[40]: <matplotlib.text.Text at 0x3f40f50>
+
+In [41]: plt.axis([0, 20000000, 0, 1.5])
+Out[41]: [0, 20000000, 0, 1.5]
+
+In [42]: plt.plot(w, V_2(w))
+Out[42]: [<matplotlib.lines.Line2D at 0x3f3c6d0>]
+
+In [43]: plt.show()
+^[[A^[[A
+In [44]: w = np.arange(0, 15000000, 1)
+
+In [45]: plt.title('RLC Bandpass Filter')
+Out[45]: <matplotlib.text.Text at 0x3d1bb90>
+
+In [46]: plt.xlabel('Frequency (Hz)')
+Out[46]: <matplotlib.text.Text at 0x3f3d950>
+
+In [47]: plt.ylabel('$V_{out}/V_{in}$')
+Out[47]: <matplotlib.text.Text at 0x43f7e90>
+
+In [48]: plt.axis([0, 15000000, 0, 1.5])
+Out[48]: [0, 15000000, 0, 1.5]
+
+In [49]: plt.plot(w, V_2(w))
+^[[A^[[AOut[49]: [<matplotlib.lines.Line2D at 0x3f38e10>]
+
+In [50]: plt.show()
+
+In [51]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [52]: w = np.arange(0, 10000000, 1)
+
+In [53]: plt.title('RLC Bandpass Filter')
+Out[53]: <matplotlib.text.Text at 0x445f1d0>
+
+In [54]: plt.xlabel('Frequency (Hz)')
+Out[54]: <matplotlib.text.Text at 0x43f2210>
+
+In [55]: plt.ylabel('$V_{out}/V_{in}$')
+Out[55]: <matplotlib.text.Text at 0x4425f90>
+
+In [56]: plt.axis([0, 15000000, 0, 1.25])
+Out[56]: [0, 15000000, 0, 1.25]
+
+In [57]: plt.plot(w, V_2(w))
+Out[57]: [<matplotlib.lines.Line2D at 0x29d5bd0>]
+
+In [58]: plt.show()
+^[[A
+In [59]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-15*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [60]: w = np.arange(0, 15000000, 1)
+
+In [61]: plt.title('RLC Bandpass Filter')
+Out[61]: <matplotlib.text.Text at 0x500f790>
+
+In [62]: plt.xlabel('Frequency (Hz)')
+Out[62]: <matplotlib.text.Text at 0x4456cd0>
+
+In [63]: plt.ylabel('$V_{out}/V_{in}$')
+Out[63]: <matplotlib.text.Text at 0x4471890>
+
+In [64]: plt.axis([0, 15000000, 0, 1.25])
+Out[64]: [0, 15000000, 0, 1.25]
+
+In [65]: plt.plot(w, V_2(w))
+Out[65]: [<matplotlib.lines.Line2D at 0x4444550>]
+
+In [66]: plt.show()
+
+In [67]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-13*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [68]: w = np.arange(0, 15000000, 1)
+
+In [69]: plt.xlabel('Frequency (Hz)')
+Out[69]: <matplotlib.text.Text at 0x447eed0>
+
+In [70]: plt.ylabel('$V_{out}/V_{in}$')
+Out[70]: <matplotlib.text.Text at 0x5031fd0>
+
+In [71]: plt.title('RLC Bandpass Filter')
+Out[71]: <matplotlib.text.Text at 0x5041090>
+
+In [72]: plt.axis([0, 15000000, 0, 1.25])
+Out[72]: [0, 15000000, 0, 1.25]
+
+In [73]: plt.plot(w, V_2(w))
+Out[73]: [<matplotlib.lines.Line2D at 0x3f59d90>]
+
+In [74]: plt.show()
+
+In [75]: def V_2(w):
+    y = (0.00002*w)/(240.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [76]: w = np.arange(0, 15000000, 1)
+
+In [77]: plt.title('RLC Bandpass Filter')
+Out[77]: <matplotlib.text.Text at 0x54456d0>
+
+In [78]: plt.xlabel('Frequency (Hz)')
+Out[78]: <matplotlib.text.Text at 0x50268d0>
+
+In [79]: plt.ylabel('$V_{out}/V_{in}$')
+Out[79]: <matplotlib.text.Text at 0x542cb50>
+
+In [80]: plt.axis([0, 15000000, 0, 1.25])
+Out[80]: [0, 15000000, 0, 1.25]
+
+In [81]: plt.plot(w, V_2(w))
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[AOut[81]: [<matplotlib.lines.Line2D at 0x3f63290>]
+
+In [82]: plt.show()
+
+In [83]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2.5e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [84]: w = np.arange(0, 15000000, 1)
+
+In [85]: plt.title('RLC Bandpass Filter')
+^[[AOut[85]: <matplotlib.text.Text at 0x58436d0>
+
+In [86]: plt.xlabel('Frequency (Hz)')
+Out[86]: <matplotlib.text.Text at 0x5435190>
+
+In [87]: plt.ylabel('$V_{out}/V_{in}$')
+Out[87]: <matplotlib.text.Text at 0x5842610>
+
+In [88]: w = np.arange(0, 15000000, 1)
+
+In [89]: plt.plot(w, V_2(w))
+Out[89]: [<matplotlib.lines.Line2D at 0x500e9d0>]
+
+In [90]: plt.show()
+
+In [91]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   ....: 
+
+In [92]: w = np.arange(0, 15000000, 1)
+
+In [93]: plt.title('RLC Bandpass Filter')
+Out[93]: <matplotlib.text.Text at 0x5f7f750>
+
+In [94]: plt.xlabel('Frequency (Hz)')
+Out[94]: <matplotlib.text.Text at 0x58476d0>
+
+In [95]: plt.xlabel('Frequency (2*np.pi*Hz)')
+Out[95]: <matplotlib.text.Text at 0x58476d0>
+
+In [96]: plt.ylabel('$V_{out}/V_{in}$')
+Out[96]: <matplotlib.text.Text at 0x5f725d0>
+
+In [97]: plt.axis([0,15000000,0,1.25])
+Out[97]: [0, 15000000, 0, 1.25]
+
+In [98]: plt.plot(w, V_2(w))
+Out[98]: [<matplotlib.lines.Line2D at 0x44213d0>]
+
+In [99]: plt.show()
+
+In [100]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   .....: 
+
+In [101]: w = np.arange(0, 15000000, 1)
+
+In [102]: plt.axis([0,15000000,0,1.25])
+Out[102]: [0, 15000000, 0, 1.25]
+
+In [103]: plt.title('RLC Bandpass Filter')
+Out[103]: <matplotlib.text.Text at 0x5fab290>
+
+In [104]: plt.xlabel('Frequency ($2*np.pi$*Hz)')
+Out[104]: <matplotlib.text.Text at 0x5fa1a10>
+
+In [105]: plt.ylabel('$V_{out}/V_{in}$')
+Out[105]: <matplotlib.text.Text at 0x5f98210>
+
+In [106]: plt.plot(w, V_2(w))
+Out[106]: [<matplotlib.lines.Line2D at 0x4418550>]
+
+In [107]: plt.show()
+
+In [108]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   .....: 
+
+In [109]: w = np.arange(0, 15000000, 1)
+
+In [110]: plt.axis([0,15000000,0,1.25])
+^[[AOut[110]: [0, 15000000, 0, 1.25]
+
+In [111]: plt.title('RLC Bandpass Filter')
+Out[111]: <matplotlib.text.Text at 0x639d390>
+
+In [112]: plt.xlabel('Frequency ($2*pi$*Hz)')
+Out[112]: <matplotlib.text.Text at 0x5f8ec90>
+
+In [113]: plt.ylabel('$V_{out}/V_{in}$')
+Out[113]: <matplotlib.text.Text at 0x6394310>
+
+In [114]: plt.plot(w, V_2(w))
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[AOut[114]: [<matplotlib.lines.Line2D at 0x636bf90>]
+
+In [115]: plt.show()
+
+In [116]: plt.xlabel('Frequency ($2*\pi*$Hz)')
+Out[116]: <matplotlib.text.Text at 0x63a27d0>
+
+In [117]: plt.plot(w, V_2(w))
+Out[117]: [<matplotlib.lines.Line2D at 0x677ec50>]
+
+In [118]: plt.show()
+
+In [119]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   .....: 
+
+In [120]: w = np.arange(0, 15000000, 1)
+
+In [121]: plt.axis([0,15000000,0,1.25])
+Out[121]: [0, 15000000, 0, 1.25]
+
+In [122]: plt.title('RLC Bandpass Filter')
+Out[122]: <matplotlib.text.Text at 0x6beab90>
+
+In [123]: plt.xlabel('Frequency ($2*\pi$Hz)')
+Out[123]: <matplotlib.text.Text at 0x5f90550>
+
+In [124]: plt.ylabel('$V_{out}/V_{in}$')
+Out[124]: <matplotlib.text.Text at 0x6795b10>
+
+In [125]: plt.plot(w, V_2(w))
+Out[125]: [<matplotlib.lines.Line2D at 0x5455ed0>]
+
+In [126]: plt.show()
+
+In [127]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   .....: 
+
+In [128]: w = np.arange(0, 15000000, 1)
+
+In [129]: plt.axis([0,15000000,0,1.25])
+Out[129]: [0, 15000000, 0, 1.25]
+
+In [130]: plt.xlabel('Frequency ($2\pi$ Hz)')
+Out[130]: <matplotlib.text.Text at 0x67ae550>
+
+In [131]: plt.ylabel('$V_{out}/V_{in}$')
+Out[131]: <matplotlib.text.Text at 0x6c19d10>
+
+In [132]: plt.plot(w, V_2(w))
+Out[132]: [<matplotlib.lines.Line2D at 0x5fa1690>]
+
+In [133]: plt.show()
+
+In [134]: def V_2(w):
+    y = (0.00002*w)/(234.0*np.abs(2e-14*w**2.0-1.0) + 0.00002*w)
+    return y
+   .....: 
+
+In [135]: w = np.arange(0, 15000000, 1)
+
+In [136]: plt.axis([0,15000000,0,1.25])
+Out[136]: [0, 15000000, 0, 1.25]
+
+In [137]: plt.xlabel('Frequency ($2\pi$ Hz)')
+Out[137]: <matplotlib.text.Text at 0x72ceed0>
+
+In [138]: plt.ylabel('$V_{out}/V_{in}$')
+Out[138]: <matplotlib.text.Text at 0x72c4890>
+
+In [139]: plt.title('RLC Bandpass Filter')
+Out[139]: <matplotlib.text.Text at 0x72c3910>
+
+In [140]: plt.plot(w, V_2(w))
+Out[140]: [<matplotlib.lines.Line2D at 0x6c01ed0>]
+
+In [141]: plt.show()
+
+In [142]: exit

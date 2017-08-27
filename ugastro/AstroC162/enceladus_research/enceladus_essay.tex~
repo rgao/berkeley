@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{amsamth}
+\usepackage{float}
+\title{Enceladus: A Hidden World}
+\author{Xin Gao, ID: 22984425}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Enceladus is an icy world orbiting Saturn and, from recent observations,
+may be a new frontier for space exploration and astrophysical
+research. It is a relatively small moon with a cross sectional size of
+England's area. Despite its small size, it is uniquely interesting as
+the first body discovered to have ice jets shooting from geyser-like
+openings. Does Enceladus in fact have a subsurface ocean and one that is
+capable of hosting life? Based on direct observations and numerical
+analyses, it is very likely that Enceladus have a reservoir of liquid
+water beneath its icy crust.
+\section{The South Polar Region}
+Very little was known about Enceladus until 2005, when the
+Cassini-Huygens spacecraft imaged details of Enceladus' surface for the
+first time. Enceladus featured a region, later to be known as the 'tiger
+stripes,' in the southern hemisphere where water ice jets seem to be
+erupting from. Whereas most of Enceladus' surface is composed of
+granular fine ice, the site of the cryovolcanic activities are primarily
+composed of crystalline ice due to geological activity and higher
+temperature. The south polar region is also the location of a detected
+hemisphere, which formed from the material ejected by the jets. Analyses
+concluded that the atmosphere is composed of approximately 91 percent
+water vapor and is a major source of Saturn's E Ring. The peculiarities
+of these region indicates a differentiated body and the existence of a
+subsurface ocean inside the southern hemisphere. 
+\section{Cryovolcanism and Internal Mechanisms}
+The observed cryovolcanic activities are indicative of an active
+interior. A form is heating mechanicsm would most likely be necessary to
+maintain a subsurface liquid water ocean, if such an ocean is indeed
+responsible for the ice jets.
+\begin{figure}[h]
+\centering
+\includegraphics[width=.7\textwidth]{enceladus_heating.png}
+\caption{A schematic drawing of the possible underlying mechanisms in
+  the interior of Enceladus. Tidal heating support a dynamic magma
+  mantle which provides thermal circulation for a layer of liquid water
+  ocean above and the resulting cryovolcanism. 
+  Source: wikipedia.org/wiki/Enceladus}
+\end{figure}
+Tidal heating can easily be present to provide the necessary energy
+source that would support the ocean. Tidal forces on Enceladus arise
+from its interaction with nearby bodies such as Saturn and Dione. The
+thermal energy from the tidal forces can differentiate the interior by
+heating up the mantle, creating a bed of magma. Such an active interior
+generate energy circulation upwards towards the surface. Between the
+water ice crush and the magma mantle would be a layer in which
+temperatures and conditions would favor the existence of a liquid water
+ocean. This active ocean would in turn release energy through cracks in
+the form of the observed cryovolcanic activities, releasing water ice
+among other substances. Organic compounds such as methane, propane,
+acetylene, and other hydrocarbons have been detected near areas with
+cryovolcanic activity.
+\section{Gravitational Data and Analysis}
+
+\section{Conclusion}

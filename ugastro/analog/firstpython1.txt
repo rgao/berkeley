@@ -1,0 +1,870 @@
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import pyplot as plt
+---------------------------------------------------------------------------
+ImportError                               Traceback (most recent call last)
+<ipython-input-2-7915c7189926> in <module>()
+----> 1 import pyplot as plt
+
+ImportError: No module named pyplot
+
+In [3]: import pylab as plt
+
+In [4]: plt.plot([1,2,3,4],[1,4,9,16])
+Out[4]: [<matplotlib.lines.Line2D at 0x29c1710>]
+
+In [5]: plt.axis([0,6,0,20])
+Out[5]: [0, 6, 0, 20]
+
+In [6]: plt.show()
+
+In [7]: plt.plot([1,2,3,4],[1,4,9,16], 'ro')
+Out[7]: [<matplotlib.lines.Line2D at 0x2f1a290>]
+
+In [8]: plt.axis([0,6,0,20])
+Out[8]: [0, 6, 0, 20]
+
+In [9]: plt.show()
+
+In [10]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% emacs rawr.tex
+
+(emacs:22103): Gtk-WARNING **: gtk_window_parse_geometry() called on a window with no visible children; the window should be set up before gtk_window_parse_geometry() is called.
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: def V(f):
+   ...:    return  (1 + 100000 * f ** 2) ** (-.5)
+   ...:    f = np.arrange(0, 200000, 50000)
+   ...: plt.show()
+   ...: plt.show()
+   ...: plt.show(V)
+   ...: 
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-1-c5119cf4e6f7> in <module>()
+      2    return  (1 + 100000 * f ** 2) ** (-.5)
+      3    f = np.arrange(0, 200000, 50000)
+----> 4 plt.show()
+      5 plt.show()
+      6 plt.show(V)
+
+NameError: name 'plt' is not defined
+*** Error in `/usr/bin/python': double free or corruption (out): 0x00000000015393f0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7abf6)[0x7f2aded71bf6]
+/lib64/libc.so.6(+0x7b973)[0x7f2aded72973]
+/usr/lib64/python2.7/lib-dynload/readline.so(+0x3a30)[0x7f2ad8f87a30]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x113a)[0x7f2adf37311a]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x335d)[0x7f2adf37533d]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x403)[0x7f2adf3785c3]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0xd27)[0x7f2adf372d07]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x403)[0x7f2adf3785c3]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0xd27)[0x7f2adf372d07]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x143)[0x7f2adf378303]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0xd27)[0x7f2adf372d07]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x403)[0x7f2adf3785c3]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0xd27)[0x7f2adf372d07]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x403)[0x7f2adf3785c3]
+/usr/lib64/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f2adf3a6892]
+/usr/lib64/libpython2.7.so.1.0(+0xf3d71)[0x7f2adf3b3d71]
+/usr/lib64/libpython2.7.so.1.0(PyRun_FileExFlags+0x86)[0x7f2adf3b4136]
+/usr/lib64/libpython2.7.so.1.0(PyRun_SimpleFileExFlags+0x17d)[0x7f2adf3b4a0d]
+/usr/lib64/libpython2.7.so.1.0(Py_Main+0x3ad)[0x7f2adf3be21d]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2aded18a15]
+/usr/bin/python[0x400791]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 08:02 397211                             /usr/bin/python2.7
+00600000-00601000 r--p 00000000 08:02 397211                             /usr/bin/python2.7
+00601000-00602000 rw-p 00001000 08:02 397211                             /usr/bin/python2.7
+00d72000-0163d000 rw-p 00000000 00:00 0                                  [heap]
+7f2ad4000000-7f2ad4021000 rw-p 00000000 00:00 0 
+7f2ad4021000-7f2ad8000000 ---p 00000000 00:00 0 
+7f2ad88f3000-7f2ad8908000 r-xp 00000000 08:02 2485516                    /lib64/libgcc_s.so.1
+7f2ad8908000-7f2ad8b07000 ---p 00015000 08:02 2485516                    /lib64/libgcc_s.so.1
+7f2ad8b07000-7f2ad8b08000 r--p 00014000 08:02 2485516                    /lib64/libgcc_s.so.1
+7f2ad8b08000-7f2ad8b09000 rw-p 00015000 08:02 2485516                    /lib64/libgcc_s.so.1
+7f2ad8b09000-7f2ad8b32000 r-xp 00000000 08:02 2485509                    /lib64/libtinfo.so.5.9
+7f2ad8b32000-7f2ad8d32000 ---p 00029000 08:02 2485509                    /lib64/libtinfo.so.5.9
+7f2ad8d32000-7f2ad8d36000 r--p 00029000 08:02 2485509                    /lib64/libtinfo.so.5.9
+7f2ad8d36000-7f2ad8d3b000 rw-p 0002d000 08:02 2485509                    /lib64/libtinfo.so.5.9
+7f2ad8d3b000-7f2ad8d3c000 rw-p 00000000 00:00 0 
+7f2ad8d3c000-7f2ad8d7a000 r-xp 00000000 08:02 2485545                    /lib64/libreadline.so.6.2
+7f2ad8d7a000-7f2ad8f7a000 ---p 0003e000 08:02 2485545                    /lib64/libreadline.so.6.2
+7f2ad8f7a000-7f2ad8f7c000 r--p 0003e000 08:02 2485545                    /lib64/libreadline.so.6.2
+7f2ad8f7c000-7f2ad8f82000 rw-p 00040000 08:02 2485545                    /lib64/libreadline.so.6.2
+7f2ad8f82000-7f2ad8f84000 rw-p 00000000 00:00 0 
+7f2ad8f84000-7f2ad8f89000 r-xp 00000000 08:02 266371                     /usr/lib64/python2.7/lib-dynload/readline.so
+7f2ad8f89000-7f2ad9188000 ---p 00005000 08:02 266371                     /usr/lib64/python2.7/lib-dynload/readline.so
+7f2ad9188000-7f2ad9189000 r--p 00004000 08:02 266371                     /usr/lib64/python2.7/lib-dynload/readline.so
+7f2ad9189000-7f2ad918b000 rw-p 00005000 08:02 266371                     /usr/lib64/python2.7/lib-dynload/readline.so
+7f2ad918b000-7f2ad918c000 ---p 00000000 00:00 0 
+7f2ad918c000-7f2ad998c000 rw-p 00000000 00:00 0                          [stack:22212]
+7f2ad998c000-7f2ad9990000 r-xp 00000000 08:02 266359                     /usr/lib64/python2.7/lib-dynload/_lsprof.so
+7f2ad9990000-7f2ad9b8f000 ---p 00004000 08:02 266359                     /usr/lib64/python2.7/lib-dynload/_lsprof.so
+7f2ad9b8f000-7f2ad9b90000 r--p 00003000 08:02 266359                     /usr/lib64/python2.7/lib-dynload/_lsprof.so
+7f2ad9b90000-7f2ad9b91000 rw-p 00004000 08:02 266359                     /usr/lib64/python2.7/lib-dynload/_lsprof.so
+7f2ad9b91000-7f2ad9b99000 r-xp 00000000 08:02 266314                     /usr/lib64/python2.7/lib-dynload/array.so
+7f2ad9b99000-7f2ad9d99000 ---p 00008000 08:02 266314                     /usr/lib64/python2.7/lib-dynload/array.so
+7f2ad9d99000-7f2ad9d9a000 r--p 00008000 08:02 266314                     /usr/lib64/python2.7/lib-dynload/array.so
+7f2ad9d9a000-7f2ad9d9c000 rw-p 00009000 08:02 266314                     /usr/lib64/python2.7/lib-dynload/array.so
+7f2ad9d9c000-7f2ad9da4000 r-xp 00000000 08:02 266360                     /usr/lib64/python2.7/lib-dynload/_json.so
+7f2ad9da4000-7f2ad9fa3000 ---p 00008000 08:02 266360                     /usr/lib64/python2.7/lib-dynload/_json.so
+7f2ad9fa3000-7f2ad9fa4000 r--p 00007000 08:02 266360                     /usr/lib64/python2.7/lib-dynload/_json.so
+7f2ad9fa4000-7f2ad9fa5000 rw-p 00008000 08:02 266360                     /usr/lib64/python2.7/lib-dynload/_json.so
+7f2ad9fa5000-7f2ad9fb7000 r-xp 00000000 08:02 266353                     /usr/lib64/python2.7/lib-dynload/cPickle.so
+7f2ad9fb7000-7f2ada1b6000 ---p 00012000 08:02 266353                     /usr/lib64/python2.7/lib-dynload/cPickle.so
+7f2ada1b6000-7f2ada1b7000 r--p 00011000 08:02 266353                     /usr/lib64/python2.7/lib-dynload/cPickle.so
+7f2ada1b7000-7f2ada1b8000 rw-p 00012000 08:02 266353                     /usr/lib64/python2.7/lib-dynload/cPickle.so
+7f2ada1b8000-7f2ada285000 r-xp 00000000 08:02 139927                     /usr/lib64/libsqlite3.so.0.8.6
+7f2ada285000-7f2ada484000 ---p 000cd000 08:02 139927                     /usr/lib64/libsqlite3.so.0.8.6
+7f2ada484000-7f2ada486000 r--p 000cc000 08:02 139927                     /usr/lib64/libsqlite3.so.0.8.6
+7f2ada486000-7f2ada489000 rw-p 000ce000 08:02 139927                     /usr/lib64/libsqlite3.so.0.8.6
+7f2ada4c5000-7f2ada4d6000 r-xp 00000000 08:02 266370                     /usr/lib64/python2.7/lib-dynload/_sqlite3.so
+7f2ada4d6000-7f2ada6d6000 ---p 00011000 08:02 266370                     /usr/lib64/python2.7/lib-dynload/_sqlite3.so
+7f2ada6d6000-7f2ada6d7000 r--p 00011000 08:02 266370                     /usr/lib64/python2.7/lib-dynload/_sqlite3.so
+7f2ada6d7000-7f2ada6d9000 rw-p 00012000 08:02 266370                     /usr/lib64/python2.7/lib-dynload/_sqlite3.so
+7f2ada6d9000-7f2ada6fc000 r-xp 00000000 08:02 266336                     /usr/lib64/python2.7/lib-dynload/_ctypes.so
+7f2ada6fc000-7f2ada8fb000 ---p 00023000 08:02 266336                     /usr/lib64/python2.7/lib-dynload/_ctypes.so
+7f2ada8fb000-7f2ada8fc000 r--p 00022000 08:02 266336                     /usr/lib64/python2.7/lib-dynload/_ctypes.so
+7f2ada8fc000-7f2ada900000 rw-p 00023000 08:02 266336                     /usr/lib64/python2.7/lib-dynload/_ctypes.so
+7f2ada900000-7f2ada901000 rw-p 00000000 00:00 0 
+7f2ada901000-7f2ada909000 r-xp 00000000 08:02 266344                     /usr/lib64/python2.7/lib-dynload/_ssl.so
+7f2ada909000-7f2adab08000 ---p 00008000 08:02 266344                     /usr/lib64/python2.7/lib-dynload/_ssl.so
+7f2adab08000-7f2adab09000 r--p 00007000 08:02 266344                     /usr/lib64/python2.7/lib-dynload/_ssl.so
+7f2adab09000-7f2adab0a000 rw-p 00008000 08:02 266344                     /usr/lib64/python2.7/lib-dynload/_ssl.so
+7f2adab0a000-7f2adab4b000 rw-p 00000000 00:00 0 
+7f2adab4b000-7f2adab56000 r-xp 00000000 08:02 266326                     /usr/lib64/python2.7/lib-dynload/_socket.so
+7f2adab56000-7f2adad56000 ---p 0000b000 08:02 266326                     /usr/lib64/python2.7/lib-dynload/_socket.so
+7f2adad56000-7f2adad57000 r--p 0000b000 08:02 266326                     /usr/lib64/python2.7/lib-dynload/_socket.so
+7f2adad57000-7f2adad5b000 rw-p 0000c000 08:02 266326                     /usr/lib64/python2.7/lib-dynload/_socket.so
+7f2adad5b000-7f2adad9c000 rw-p 00000000 00:00 0 
+7f2adad9d000-7f2adadb8000 r-xp 00000000 08:02 266330                     /usr/lib64/python2.7/lib-dynload/_io.so
+7f2adadb8000-7f2adafb8000 ---p 0001b000 08:02 266330                     /usr/lib64/python2.7/lib-dynload/_io.so
+7f2adafb8000-7f2adafb9000 r--p 0001b000 08:02 266330                     /usr/lib64/python2.7/lib-dynload/_io.so
+7f2adafb9000-7f2adafc2000 rw-p 0001c000 08:02 266330                     /usr/lib64/python2.7/lib-dynload/_io.so
+7f2adafc2000-7f2adb107000 rw-p 00000000 00:00 0 
+7f2adb107000-7f2adb109000 r-xp 00000000 08:02 266329                     /usr/lib64/python2.7/lib-dynload/grp.so
+7f2adb109000-7f2adb308000 ---p 00002000 08:02 266329                     /usr/lib64/python2.7/lib-dynload/grp.so
+7f2adb308000-7f2adb309000 r--p 00001000 08:02 266329                     /usr/lib64/python2.7/lib-dynload/grp.so
+7f2adb309000-7f2adb30a000 rw-p 00002000 08:02 266329                     /usr/lib64/python2.7/lib-dynload/grp.so
+7f2adb30a000-7f2adb34b000 rw-p 00000000 00:00 0 
+7f2adb34b000-7f2adb34f000 r-xp 00000000 08:02 266319                     /usr/lib64/python2.7/lib-dynload/termios.so
+7f2adb34f000-7f2adb54e000 ---p 00004000 08:02 266319                     /usr/lib64/python2.7/lib-dynload/termios.so
+7f2adb54e000-7f2adb54f000 r--p 00003000 08:02 266319                     /usr/lib64/python2.7/lib-dynload/termios.so
+7f2adb54f000-7f2adb551000 rw-p 00004000 08:02 266319                     /usr/lib64/python2.7/lib-dynload/termios.so
+7f2adb551000-7f2adb553000 r-xp 00000000 08:02 266321                     /usr/lib64/python2.7/lib-dynload/resource.so
+7f2adb553000-7f2adb752000 ---p 00002000 08:02 266321                     /usr/lib64/python2.7/lib-dynload/resource.so
+7f2adb752000-7f2adb753000 r--p 00001000 08:02 266321                     /usr/lib64/python2.7/lib-dynload/resource.so
+7f2adb753000-7f2adb754000 rw-p 00002000 08:02 266321                     /usr/lib64/python2.7/lib-dynload/resource.so
+7f2adb754000-7f2adb759000 r-xp 00000000 08:02 266352                     /usr/lib64/python2.7/lib-dynload/select.so
+7f2adb759000-7f2adb958000 ---p 00005000 08:02 266352                     /usr/lib64/python2.7/lib-dynload/select.so
+7f2adb958000-7f2adb959000 r--p 00004000 08:02 266352                     /usr/lib64/python2.7/lib-dynload/select.so
+7f2adb959000-7f2adb95b000 rw-p 00005000 08:02 266352                     /usr/lib64/python2.7/lib-dynload/select.so
+7f2adb95b000-7f2adb99c000 rw-p 00000000 00:00 0 
+7f2adb99c000-7f2adb99f000 r-xp 00000000 08:02 266324                     /usr/lib64/python2.7/lib-dynload/fcntl.so
+7f2adb99f000-7f2adbb9e000 ---p 00003000 08:02 266324                     /usr/lib64/python2.7/lib-dynload/fcntl.soAbort
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import pylab as plt
+
+In [3]: def V(f):
+   ...:     (1 + (.00001 * f) ** 2) ** (-.5)
+   ...:     
+
+In [4]: f = np.arrange(0, 200000, 50000)
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-4-b0b8f39de703> in <module>()
+----> 1 f = np.arrange(0, 200000, 50000)
+
+AttributeError: 'module' object has no attribute 'arrange'
+
+In [5]: import matplotlib as plt            
+
+In [6]: f = np.arrange(0, 200000, 50000)
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-6-b0b8f39de703> in <module>()
+----> 1 f = np.arrange(0, 200000, 50000)
+
+AttributeError: 'module' object has no attribute 'arrange'
+
+In [7]: f = np.arange(0, 200000, 50000)
+
+In [8]: plt.show()
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-8-c4e69632d98a> in <module>()
+----> 1 plt.show()
+
+AttributeError: 'module' object has no attribute 'show'
+
+In [9]: exit
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+\Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import pylab as plt
+
+In [3]: def V(f):                       
+    (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: exit
+   ...: exit()
+   ...: 
+[1]  + 23259 Suspended                     ipython
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import pylab as plt
+
+In [3]: def V(f):
+   ...:     return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: np.arange(0, 200000, 50000)
+Out[4]: array([     0,  50000, 100000, 150000])
+
+In [5]: plt.show()
+
+In [6]: plt.plot(f, V(f)
+   ...: 
+   ...: plt.show()
+  File "<ipython-input-6-dd0e3ce4f776>", line 2
+    plt.show()
+      ^
+SyntaxError: invalid syntax
+
+
+In [7]: plt.show()
+
+In [8]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [9]: np.arange(0, 200000, 50000)
+Out[9]: array([     0,  50000, 100000, 150000])
+
+In [10]: plt.plot(f, V(f)
+plt.show()
+  File "<ipython-input-10-dd0e3ce4f776>", line 2
+    plt.show()
+      ^
+SyntaxError: invalid syntax
+
+
+In [11]: plt.show()
+
+In [12]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: np.arange(0, 200000, 50000)
+Out[4]: array([     0,  50000, 100000, 150000])
+
+In [5]: plt.plot(f, V(f))
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-abaac2844349> in <module>()
+----> 1 plt.plot(f, V(f))
+
+NameError: name 'f' is not defined
+
+In [6]: f = np.arange(0, 200000, 50000)    
+
+In [7]: plt.plot(f, V(f))
+Out[7]: [<matplotlib.lines.Line2D at 0x2509f90>]
+
+In [8]: plt.show()
+
+In [9]: f = np.arange(0, 200000, 1)
+
+In [10]: plt.show()
+
+In [11]: plt.plot(f, V(f))
+Out[11]: [<matplotlib.lines.Line2D at 0x2a4d190>]
+
+In [12]: plt.show()
+
+In [13]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib as plt
+
+In [3]: def V(f):                      
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: plt.arange(0, 200000, 1)
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-4-9c945f5a3c12> in <module>()
+----> 1 plt.arange(0, 200000, 1)
+
+AttributeError: 'module' object has no attribute 'arange'
+
+In [5]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: np.arange(0, 200000, 1)
+Out[4]: array([     0,      1,      2, ..., 199997, 199998, 199999])
+
+In [5]: plt.title('Low-Pass Filter')
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-5-0519a532c5e4> in <module>()
+----> 1 plt.title('Low-Pass Filter')
+
+AttributeError: 'module' object has no attribute 'title'
+
+In [6]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: np.arange(0, 200000, 1)
+Out[4]: array([     0,      1,      2, ..., 199997, 199998, 199999])
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x39e6390>
+
+In [6]: plt.labelx('Frequency')
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-6-9e004335f5dd> in <module>()
+----> 1 plt.labelx('Frequency')
+
+AttributeError: 'module' object has no attribute 'labelx'
+
+In [7]: plt.xlabel('Frequency')
+Out[7]: <matplotlib.text.Text at 0x36dc850>
+
+In [8]: plt.ylabel($'V_out / V_in'$)
+  File "<ipython-input-8-e3f46da2113d>", line 1
+    plt.ylabel($'V_out / V_in'$)
+               ^
+SyntaxError: invalid syntax
+
+
+In [9]: plt.ylabel('$V_out / V_in$')
+Out[9]: <matplotlib.text.Text at 0x39d9310>
+
+In [10]: plt.plot(f, V(f))
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-10-abaac2844349> in <module>()
+----> 1 plt.plot(f, V(f))
+
+NameError: name 'f' is not defined
+
+In [11]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: f = np.arange(0, 200000, 1)
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x3b8a050>
+
+In [6]: plt.xlabel('Frequency')
+Out[6]: <matplotlib.text.Text at 0x388b610>
+
+In [7]: plt.ylabel('$V_out / V_in$')
+Out[7]: <matplotlib.text.Text at 0x3b7d0d0>
+
+In [8]: plt.plot(f, V(f))
+Out[8]: [<matplotlib.lines.Line2D at 0x285f3d0>]
+
+In [9]: plt.show()
+
+In [10]: plt.ylabel('$V_(out) / V_(in)$')
+Out[10]: <matplotlib.text.Text at 0x3bb5b50>
+
+In [11]: plt.plot(f, V(f))
+Out[11]: [<matplotlib.lines.Line2D at 0x42c6610>]
+
+In [12]: plt.show()
+
+In [13]: plt.ylabel('$V_{out} / V_{in}$')
+Out[13]: <matplotlib.text.Text at 0x42dead0>
+
+In [14]: plt.plot(f, V(f))
+Out[14]: [<matplotlib.lines.Line2D at 0x4254210>]
+
+In [15]: plt.show()
+^[[A
+In [16]: plt.title('Low-Pass Filter')
+Out[16]: <matplotlib.text.Text at 0x4274a90>
+
+In [17]: plt.xlabel('Frequency')
+Out[17]: <matplotlib.text.Text at 0x42d9f50>
+
+In [18]: plt.ylabel('$V_{out} / V_{in}$')
+Out[18]: <matplotlib.text.Text at 0x4268a10>
+
+In [19]: plt.plot(f, V(f))
+Out[19]: [<matplotlib.lines.Line2D at 0x3ba9b90>]
+
+In [20]: plt.show()
+
+In [21]: plt.title('Low-Pass Filter')
+Out[21]: <matplotlib.text.Text at 0x4a96990>
+
+In [22]: plt.xlabel('Frequency (Hz)')
+Out[22]: <matplotlib.text.Text at 0x4260ad0>
+
+In [23]: plt.ylabel('$V_{out} / V_{in}$')
+Out[23]: <matplotlib.text.Text at 0x4a7ce10>
+
+In [24]: mark
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-24-51548e939608> in <module>()
+----> 1 mark
+
+NameError: name 'mark' is not defined
+
+In [25]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):                      
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: f = np.arange(0, 200000, 1)
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x3d1a050>
+
+In [6]: plt.xlabel('Frequency (Hz)')
+Out[6]: <matplotlib.text.Text at 0x3a1b610>
+
+In [7]: plt.ylabel('$V_{out} / V_{in}$')
+Out[7]: <matplotlib.text.Text at 0x3d0d0d0>
+
+In [8]: xs = linspace(99999, 100001, 2)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-8-966804436e78> in <module>()
+----> 1 xs = linspace(99999, 100001, 2)
+
+NameError: name 'linspace' is not defined
+
+In [9]: ax = plt.subplots()
+
+In [10]: ax.plot(100000, .705, 'ro-')
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-10-db61a2fa3b01> in <module>()
+----> 1 ax.plot(100000, .705, 'ro-')
+
+AttributeError: 'tuple' object has no attribute 'plot'
+
+In [11]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: f = np.arange(0, 200000, 1)
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x2f2b050>
+
+In [6]: plt.xlabel('Frequency (Hz)')
+Out[6]: <matplotlib.text.Text at 0x2c2c610>
+
+In [7]: plt.ylabel('$V_{out} / V_{in}$')
+Out[7]: <matplotlib.text.Text at 0x2f1e0d0>
+
+In [8]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (150000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[8]: <matplotlib.text.Annotation at 0x2f36110>
+
+In [9]: plt.text(20000, .35, '$R = 160\Omega$')
+Out[9]: <matplotlib.text.Text at 0x2f31ed0>
+
+In [10]: plt.text(20000, .2, '$C = 1 * 10^{-8}$')
+Out[10]: <matplotlib.text.Text at 0x1c01390>
+
+In [11]: plt.plot(f, V(f))
+Out[11]: [<matplotlib.lines.Line2D at 0x1c013d0>]
+
+In [12]: plt.show()
+^[[A
+In [13]: plt.title('Low-Pass Filter')
+Out[13]: <matplotlib.text.Text at 0x3678110>
+
+In [14]: plt.xlabel('Frequency (Hz)')
+Out[14]: <matplotlib.text.Text at 0x2f56650>
+
+In [15]: plt.ylabel('$V_{out} / V_{in}$')
+Out[15]: <matplotlib.text.Text at 0x367f110>
+
+In [16]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (150000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[16]: <matplotlib.text.Annotation at 0x36863d0>
+
+In [17]: plt.text(20000, .35, '$R = 160\Omega$')
+Out[17]: <matplotlib.text.Text at 0x3672fd0>
+
+In [18]: plt.text(2000, .2, '$C = 1 * 10^{-8}$')
+Out[18]: <matplotlib.text.Text at 0x3672f10>
+
+In [19]: plt.axis([0, 200000], [0,1])
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-19-84fd9e804c43> in <module>()
+----> 1 plt.axis([0, 200000], [0,1])
+
+/usr/lib64/python2.7/site-packages/matplotlib/pyplot.pyc in axis(*v, **kwargs)
+   1243     """
+   1244     ax = gca()
+-> 1245     v = ax.axis(*v, **kwargs)
+   1246     draw_if_interactive()
+   1247     return v
+
+/usr/lib64/python2.7/site-packages/matplotlib/axes.pyc in axis(self, *v, **kwargs)
+   1364         v = v[0]
+   1365         if len(v) != 4:
+-> 1366             raise ValueError('v must contain [xmin xmax ymin ymax]')
+   1367 
+   1368         self.set_xlim([v[0], v[1]], emit=emit, auto=False)
+
+ValueError: v must contain [xmin xmax ymin ymax]
+
+In [20]: plt.axis([0,200000,0,1])
+Out[20]: [0, 200000, 0, 1]
+
+In [21]: plt.plot(f, V(f))
+Out[21]: [<matplotlib.lines.Line2D at 0x3672f90>]
+
+In [22]: plt.show()
+exit()
+
+In [23]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: f = np.arange(0, 200000, 1)   
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x25d1050>
+
+In [6]: plt.xlabel('Frequency (Hz)')
+Out[6]: <matplotlib.text.Text at 0x22c4610>
+
+In [7]: plt.ylabel('$V_{out} / V_{in}$')
+Out[7]: <matplotlib.text.Text at 0x25c40d0>
+
+In [8]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (150000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[8]: <matplotlib.text.Annotation at 0x25dc190>
+
+In [9]: plt.text(20000, .35, '$R = 160\Omega$')
+Out[9]: <matplotlib.text.Text at 0x25d7d90>
+
+In [10]: plt.text(20000, .2, '$C = 1 * 10^{-8}$')
+Out[10]: <matplotlib.text.Text at 0x25d7ed0>
+
+In [11]: plt.axis([0, 200000, 0, 1])
+Out[11]: [0, 200000, 0, 1]
+
+In [12]: plt.plot(f, V(f))
+Out[12]: [<matplotlib.lines.Line2D at 0x25d7f50>]
+
+In [13]: plt.show()
+^[[A^[[A
+In [14]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (130000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[14]: <matplotlib.text.Annotation at 0x2cfdb10>
+
+In [15]: plt.title('Low-Pass Filter')
+Out[15]: <matplotlib.text.Text at 0x2d0bdd0>
+
+In [16]: plt.xlabel('Frequency (Hz)')
+Out[16]: <matplotlib.text.Text at 0x25fa350>
+
+In [17]: plt.ylabel('$V_{out} / V_{in}$')
+Out[17]: <matplotlib.text.Text at 0x25f7dd0>
+
+In [18]: plt.text(20000, .2, '$C = 1 * 10^{-8}$')
+Out[18]: <matplotlib.text.Text at 0x25d7d10>
+
+In [19]: plt.text(20000, .2, '$C = 1\times{10^{-8}}$')
+Out[19]: <matplotlib.text.Text at 0x22bc0d0>
+
+In [20]: plt.text(20000, .35, '$R = 160\Omega$')
+Out[20]: <matplotlib.text.Text at 0x7f966fa42110>
+
+In [21]: plt.axis ([0,200000,0,1])
+Out[21]: [0, 200000, 0, 1]
+
+In [22]: plt.plot(f,V(f))
+Out[22]: [<matplotlib.lines.Line2D at 0x7f966fa26650>]
+
+In [23]: plt.show()
+exit()
+In [24]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: f = np.arange(0, 200000, 1)
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x34f7050>
+
+In [6]: plt.xlabel('Frequency (Hz)')
+Out[6]: <matplotlib.text.Text at 0x31f8610>
+
+In [7]: plt.ylabel('$V_{out} / V_{in}$')
+Out[7]: <matplotlib.text.Text at 0x34ea0d0>
+
+In [8]: plt.axis ([0,200000,0,1])
+Out[8]: [0, 200000, 0, 1]
+
+In [9]: plt.text(20000, .2, '$C = 1 * 10^{-8}$')
+Out[9]: <matplotlib.text.Text at 0x34fdcd0>
+
+In [10]: plt.text(20000, .35, '$R = 160\Omega$')
+Out[10]: <matplotlib.text.Text at 0x34fda50>
+
+In [11]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (130000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[11]: <matplotlib.text.Annotation at 0x3501350>
+
+In [12]: plt.plot(f,V(f))
+Out[12]: [<matplotlib.lines.Line2D at 0x31dbc10>]
+
+In [13]: plt.show()
+^[[A
+In [14]: plt.title('Low-Pass Filter')   
+Out[14]: <matplotlib.text.Text at 0x3c3f890>
+
+In [15]: plt.xlabel('Frequency (Hz)')
+Out[15]: <matplotlib.text.Text at 0x31eb8d0>
+
+In [16]: plt.ylabel('$V_{out} / V_{in}$')
+Out[16]: <matplotlib.text.Text at 0x3521810>
+
+In [17]: plt.axis ([0,200000,0,1])
+Out[17]: [0, 200000, 0, 1]
+
+In [18]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (130000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[18]: <matplotlib.text.Annotation at 0x3c31850>
+
+In [19]: plt.text(20000, .2, '$C = 1 * 10^{-8}$')
+Out[19]: <matplotlib.text.Text at 0x3c31710>
+
+In [20]: exit()
+aldebaran.ugastro.berkeley.edu>/home/xgao% ipython
+Python 2.7.3 (default, Apr 14 2012, 08:58:41) [GCC]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import numpy as np
+
+In [2]: import matplotlib.pyplot as plt
+
+In [3]: def V(f):
+    return (1 + (.00001 * f) ** 2) ** (-.5)
+   ...: 
+
+In [4]: f = np.arange(0, 200000, 1)
+
+In [5]: plt.title('Low-Pass Filter')
+Out[5]: <matplotlib.text.Text at 0x3660050>
+
+In [6]: plt.xlabel('Frequency (Hz)')
+Out[6]: <matplotlib.text.Text at 0x3360610>
+
+In [7]: plt.ylabel('$V_{out} / V_{in}$')
+Out[7]: <matplotlib.text.Text at 0x36530d0>
+
+In [8]: plt.axis ([0,200000,0,1])
+Out[8]: [0, 200000, 0, 1]
+
+In [9]: plt.annotate('100000 Hz cutoff', xy = (100000, .705), xytext = (130000, .8), arrowprops = dict(facecolor = 'black', shrink = 0.05),)
+Out[9]: <matplotlib.text.Annotation at 0x366b110>
+
+In [10]: plt.text(20000, .2, '$C = 1 * 10^{-8} F$')
+Out[10]: <matplotlib.text.Text at 0x3666dd0>
+
+In [11]: plt.text(20000, .35, '$R = 160 \Omega$')
+Out[11]: <matplotlib.text.Text at 0x3343b90>
+
+In [12]: plt.plot(f,V(f))
+Out[12]: [<matplotlib.lines.Line2D at 0x3343c10>]
+
+In [13]: plt.show()
+
+In [14]: 

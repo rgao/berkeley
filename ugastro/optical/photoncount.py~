@@ -1,0 +1,13 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+#time resolution for each interval of photon detection
+t_res = 1.0e-6
+#total integrated time of sampling
+t_int = 1.0
+#number of time resolution elements
+N_el = t_int / t_res
+#expected average number of photons per integratio0n
+N_gamma = 100
+
+print(np.random.randint(100, size=100))

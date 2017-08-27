@@ -1,0 +1,8 @@
+pro swap_em, a, b
+ ; swaps the values of a and b
+ a = 8.52547 
+ b = 5.19643 
+ y = a*b
+ a = y/a
+ b = y/b
+end

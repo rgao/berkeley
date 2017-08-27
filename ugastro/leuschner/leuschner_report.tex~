@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{float}
+\title{The Magellanic Stream: Cosmic River Connecting Two Worlds}
+\author{Xin Gao}
+\date
+\begin{document}
+\maketitle
+
+\section{Abstract}
+\section{Introduction}
+\section{Methods and Procedure}
+\subsection{Galactic Coordinates and the Local Group}
+\subsection{The 21-cm Hyperfine Transition Line of Hydrogen}
+\subsection{Emission and Absorption Lines from Distant Sources}
+\subsubsection{Broadening}
+\subsubsection{The Line Profile Function}
+\subsection{Intensity Calibration}
+\section{Data}
+\section{Analysis}
+\section{Conclusion}
+
+\end{document}
