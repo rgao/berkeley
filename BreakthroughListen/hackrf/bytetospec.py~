@@ -1,0 +1,46 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = np.fromfile('test441.bin', dtype=np.int8)
+b = np.fromfile('test881.bin', dtype=np.int8)
+
+def sanitycheck(data):
+    real = data[0::2]
+    imag = data[1::2]
+    plt.hist(real)
+    plt.hist(imag)
+    plt.show()
+
+sanitycheck(a)
+sanitycheck(b)
+
+def bytetospec(data, row, column, xax=0, yax=1):
+    data = data.reshape(row, column)
+    allfft = []
+    for i in data:
+        C = i[0::2] + i[1::2] * 1j
+        Cfft = np.fft.fftshift(np.fft.fft(C))
+        powerfft = abs(Cfft)**2
+        allfft.append(powerfft)
+    power_avg = []
+    indices_arr = np.swapaxes(allfft, xax, yax)
+    for index in indices_arr:
+        power_avg.append(np.average(index))
+    return power_avg
+
+def plotbytes(data, fftsize, left, right):
+    row = len(data) / fftsize
+    x = np.linspace(left, right, fftsize / 4)
+    y = bytetospec(data, row, fftsize)[int(fftsize/8):int(3*fftsize/8)]
+    plt.plot(x, np.log(y))
+    plt.show()
+
+plotbytes(a, 262144, 437000000, 445000000)
+plotbytes(b, 262144, 877000000, 885000000)
+
+
+
+
+
+
+
