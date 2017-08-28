@@ -1,0 +1,28 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+mix1 = np.load('mixer1.npz')
+mixer1 = mix1['arr_0']
+freq = np.fft.fftshift(np.fft.fftfreq(len(mixer1),2.564e-7))
+mixer1fft = np.fft.fft(mixer1)
+
+for i in np.arange(len(mixer1)):
+    if abs(128-i) > 8:
+        mixer1fft[i] = 0+0j
+
+mixer1spec = (abs(mixer1fft))**2
+plt.plot(mixer1spec)
+
+mixer1ifft = np.fft.ifft(np.fft.ifftshift(mixer1spec))
+time = np.arange(256)*2e-5 
+
+plt.figure(9)   
+plt.title('Fourier-filtered Waveform',fontsize=14)
+plt.xlabel('Time(s)')
+plt.ylabel('Voltage (V)')
+plt.xlim(0,.00512)
+plt.plot(time,mixer1ifft)
+plt.show()                       
+    
+
+

@@ -1,0 +1,28 @@
+import numpy as np
+import pylab as plt
+
+sun = np.load('data_sunrain_140401.npz')
+
+def sun_average(y):
+    r = 100
+    n = 100
+    y_avg = np.array([])
+    for i in y[r: -r]:
+        y_avg = np.append([y_avg],[np.mean(y[n-r: n+r])])
+        n = n+1
+    return y_avg
+
+x_data = (sun['jd'] - sun['jd'][0]) * 86400
+x_sun = x_data[100:34405]
+
+y_data = sun['volts']
+y_avg = sun_average(y_data)
+y_sun = y_data[100:34405] - y_avg
+
+plt.xlim([0,34500])
+plt.title('Sunrise-ish to Sunset-ish')
+plt.xlabel('Time(s)')
+plt.ylabel('Voltage')
+
+plt.plot(x_sun, y_sun)
+plt.show()

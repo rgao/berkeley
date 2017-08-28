@@ -1,0 +1,222 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\begin{document}
+\title{Lab 2 - Digitolling Time}
+\author{Xin Gao}
+\date{}
+\maketitle
+
+\section{Abstract}
+\section{Introduction}
+Whereas an analog signal sends information in the original, continuous
+waveform, a digital signal sends information at discrete ranges. Many
+electronic devices today, including computer processors, use digitized
+signals because these signals provide exact values for the range at
+specific times or frequencies. Waveforms in time domain is converted to
+data in frequency domain via fourier transformation. In context of radio
+astronomy, the goal is to process the received signals, which is
+accomplished by a digital-down converter. Input signals can be naturally
+high in frequency; for easier processing, a digital-down converter takes
+a digitized intermediate-frequency signal, which results from a mixer
+using a 'heterodyning' technique and filters out all but a low frequency
+band 'centered' at 0, ultimately to allow our processor to
+output the desired information relatively quickly.
+\section{Methods and Procedure}
+Our input to be bandpass-filtered for down conversion (in a FIR filter -
+to be discussed later) is a digitally mixed signal. We begin our
+procedure with examining the process of sampling, which is digitizing an
+analog signal and is a process gated by criteria. Next we would examine
+the results of mixing signals in a FPGA (discussed later). Finally, we
+would design the workings of our FIR filter to put it all together for
+down converting an input signal mixed with our local 'clock oscillator'. 
+\subsection{Sampling and the Nyquist Criterion}
+Sampled data can be interpreted in multiple ways. Of interest to us are
+their waveform, especially in relation to Nyquist's Criterion (see
+section below), and their power spectra, which is very useful for
+analyzing the multiple frequency makeup for an input signal. Power
+Spectrum can be derived using Fourier transformation.
+\subsubsection{Waveform}
+When sampling, we take the continuous, analog input signal and measure
+its values at discrete time intervals to produce its digitized
+version. The frequency $\nu_{s}$ at which we sample must be high enough
+in order for the signal to be replicated accurately. For this
+examination we use \textbf{20 MHz} as ths sample frequency. The maximum
+signal frequency $\nu_{sig} = \nu_{max}$ that can be sampled correctly is 
+known as the Nyquist frequency and obey the following criterion, known 
+as the Nyquist's Criterion:
+\begin{align}\nu_{s} = 2\nu_{max}\end{align}
+Plot 1 of Figure 2 shows sampled data at Nyquist frequency. Frequencies
+$\nu_{sig}$ above the Nyquist frequencies do not get sampled
+properly but gets 'aliased' down to corresponding frequencies. Aliasing
+is an effect when certain reconstructed signals from sampling become
+indistinguishable from one another. Because $\nu_{s}$ is not high enough
+to accurately reconstruct a signal at, for example, 0.8$\nu_{s}$, the
+reconstructed signal will be similar to that of a lower frequency. It
+turns out that aliased signals are symmetric about $\nu_{max}$; that is, 
+the same frequency difference from $\nu_{max}$ (up to $\nu_{s}$) will produce
+similar sampled data. For example, the sampled 0.8$\nu_{s}$ data would
+look like the sampled 0.2 $\nu_{s}$. Mathematically, for the purpose of
+sampling, it would not be a stretch to say:
+\begin{align}\nu_{max} + \Delta{\nu} \approx \nu_{max} - \Delta{\nu} , \Delta{\nu}
+  < \nu_{max}\end{align}
+Figure 1 shows the result of sampling at different frequences below
+$\nu_{s}$ not at $\nu_{max}$. Setting $\nu_{max}$ = $\nu_{s}$ and sampling would 
+produce unfruitful results since the signal would get sampled once per 
+wavelength, creating a 'direct current' looking output. Plot 2 of Figure
+2 shows this result. Similar nonsensical results are obtained when
+$\nu_{s} << \nu_{max}$ (see Figure 3).
+\subsubsection{Power Spectrum}
+The waveform we obtain from the signals is a time domain; that is, the
+value (voltage in our case) at each point is a function of
+time. We fourier transform this function, as defined by:
+\begin{align}\hat{f}(\omega) = \int f(t) e^{-i\omega{t}} dt\end{align}
+Here $\omega$ is frequency. Taking the fourier transform of a time domain
+function outputs a frequency domain function. Since our single input
+signal is of primarily one frequency value, we expect $f(\omega)$ to
+contain a delta function, spiking at the input frequency. There are
+actually two spikes at positive and negative $\nu_{sig}$. This occurence
+arises from the complex nature of taking the fourier transform. This
+makes sense mathematically taking into account the following identities:
+\begin{align}e^{-i\omega{t}} = cos(-i\omega{t}) +
+isin(-i\omega{t})\end{align}
+\begin{align}cos(-i\omega{t}) = \frac{e^{-i\omega{t}}+e^{i\omega{t}}}{2}
+  \\ isin(-i\omega{t}) =
+  \frac{e^{-i\omega{t}}-e^{i\omega{t}}}{2}\end{align}
+Since cosine is an even function, $cos(i\omega{t} = cos(-i\omega{t})$; the
+transformation due to the complex cosine component mirrors the data at 0 
+frequency and spawns the negative frequencies. The plots of Figure 4
+show this phenomenon. These plots are called the power spectra of the
+data from Figure 1. A power spectrum P can be obtained by taking the
+square of the absolute value of the fourier transformed values:
+\begin{align}S = |{\hat{f}(\omega)}|^2\end{align}
+The power spectrum is power as a function of frequency; it describes the
+amount of energy or power a given frequency has in our signal. As shown
+in Figure 6 and plot 2 of Figure 5, $\nu_{sig}$ at or greater than $\nu_{s}$
+produce 0-valued power spectral, which are physically unimportant. Plot
+1 of Figure 5 shows the power spectrum for $\nu_{max}$. Interestingly, it
+shows a graph with only one peak. This is
+caused by the way the program plots Nyquist frequency samples: it begins
+taking data at 0 and moves to positive values before jumping to the most
+negative value and back to 0. Because sampling at the Nyquist frequency
+outputs two peaks at the same frequency value corresponding to the
+positive and negative 'edges', the program deems the two
+indistinguishable; so, when it reaches the positive end, it jumps and
+creates the peak value at the negative end. 
+\subsection{Mixing Frequencies - Heterodyning}
+Heterodyning is the process of combining two input signals to form
+output signals. Typically, inputs of $\nu_{1}$ and $\nu_{2}$ will
+produce both sum and difference outputs $\nu_{1} \pm \nu_{2}$. Signals
+mix by an operation called convolution, or multiplication in the
+fourier-transformed domain:
+\begin{align}f(t)g(t) = f(t)\ast{g(t)} = \int
+  \hat{f}{\omega}\hat{g}{\omega}e^{i\omega{t}}d\omega \end{align} 
+Convolution is essentially the sliding of a signal over another one.The
+two signals can be convolve analytically in an analog mixer such as
+the ZAD-1 mini circuit or digitally in the ROACH (Reconfigurable Open
+Architecture for Computer Hardware), which includes a FPGA (Field 
+Programmable Gate Array), an analog-to-digital converter (in the FPGA), 
+and a processor. 
+\subsubsection{Mixing in the ZAD-1 and Fourier FIltering}
+We start our mixing experiments with analog mixing using the ZAD-1 mini
+circuit, which takes two input signals from the oscillators and 
+outputs the data as array into our programs. For the frequencies of the
+two signals, we use $\nu_{lo} = 1 MHz and \nu_{sig} = \nu_{lo} \pm
+.05\nu_{lo}$. For the sake of sampling the Nyquist frequency, the sample
+frequency chosen for each case is different. For $\nu_{sig} = \nu_{lo} -
+.05\nu_{lo}$, $\nu_{sum} = 1.95 MHz$ so the sample frequency is \textbf{3.9
+MHz}. For $\nu_{sig} = \nu_{lo} + .05\nu_{lo}$, $\nu_{sum} = 2.05 MHz$ so
+the sample frequency is \textbf{4.1 MHz}. We use these values for our signals and
+then take the power spectra of the output data from the
+mixer. The power spectra for these two cases are plotted in Figure
+7. There seems to be four peaks total for each case. There's 
+a peak each at positive and negative frequencies of the sum (upper
+sideband) and difference (lower sideband). Now, let's say, we would like
+only one sideband so we can see the waveform due to only one real peak
+value for the frequency; we would have to filter out the other one. This
+can be accomplished by invoking the inverse fourier transform:
+\begin{align}f(t) = \frac{1}{2\pi}\int f(\omega) e^{i\omega{t}} d\omega\end{align}
+For relevance to radio astronomy, let's say we would like to keep the lower
+sideband. We use one of our mixer outputs as the signal we'd like to
+filter. Let's use $\nu_{sum} = 1.95 MHz$. Its waveform and fourier
+transformed (not its power spectrum) data values  are plotted in Figure
+8. We see four peaks as expected and we want to filter out all
+frequencies values except those centered at the immediate positive and
+negative lower sideband peaks. Since the fourier transform is a complex
+operator, our data is a two-dimensional array so we must set both the
+real and imaginary values to zero using our programs. After this is 
+accomplished, we finally take the inverse fourier transformed data, 
+which is plotted in Figure 9.
+\subsubsection{Mixing in the ROACH and the SSB}
+Whereas the previous experiments deals with sampling an mixed analog output,
+this experiment deals with mixing digitized signals. We compare by
+sending similar signals to the ones used for the analog mixer to the
+analog-to-digital converter in the ROACH. The ROACH is connected with a 
+oscillator 'clock' with an internal sample frequency of 200 MHz. For
+this part we use 10 MHz for $\nu_{lo}$ and 9.5 MHz for $\nu_{sig}$. The
+output data is stored in a BRAM (Block Random Access Memory) file in the
+FPGA. We copy the data to our program and then mercilessly murder the
+file from the FPGA so other processess can start running on it. The
+power spectrum of the digitally mixed output is plotted in Figure 10; it
+is similar to the result achieved from the analog mixing experiment. 
+\subsection{FIR Filter}
+a
+\section{Data and Results}
+a
+\subsection{Nyquist Criterion - Sampling Examples}
+\begin{figure}[!ht]
+\caption{Selected Sampled Signals for $f_{s} = 20 MHz$}
+\centering
+\includegraphics[width=.75\textwidth]{timesample1.png}\end{figure}
+\begin{figure}[!ht]
+\caption{Sampling at Nyquist Frequency and Sampling Frequency}
+\centering
+\includegraphics[width=.75\textwidth]{timesample2.png}\end{figure}
+\begin{figure}[!ht]
+\caption{The Nyquist Criterion Ignored}
+\centering
+\includegraphics[width=.75\textwidth]{timesample3.png}\end{figure}
+\begin{figure}[!ht]
+\caption{Power Spectra Corresponding to Data from Figure 1}
+\centering
+\includegraphics[width=.75\textwidth]{timesample3.png}\end{figure}
+\begin{figure}[!ht]
+\caption{Power Spectra Corresponding to Data from Figure 2}
+\centering
+\includegraphics[width=.75\textwidth]{specsample2.png}\end{figure}
+\begin{figure}[!ht]
+\caption{Power Spectra Corresponding to Data from Figure 3}
+\centering
+\includegraphics[width=.75\textwidth]{specsample3.png}\end{figure}
+\newpage
+\subsection{Analog Mixing}
+\begin{figure}[!ht]
+\caption{Power Spectra of Analytically Mixed Signals}
+\centering
+\includegraphics[width=.75\textwidth]{mixerspec.png}\end{figure}
+\begin{figure}[!ht]
+\caption{Waveform and Fourier Transform of 1 ZAD-mixed Output}
+\centering
+\includegraphics[width=.75\textwidth]{mixerwave.png}\end{figure}
+\begin{figure}[!ht]
+\caption{Fourier-Filtered Waveform of Signal from Figure 8}
+\centering
+\includegraphics[width=.75\textwidth]{mixerfourier.png}\end{figure}
+\newpage
+\subsection{Digital Mixing: SSB vs. DSB}
+\begin{figure}[!htb]
+\caption{Power Spectra of Digitally Mixed Signals}
+\centering
+\includegraphics[width=.75\textwidth]{roachmix.png}\end{figure}
+\begin{figure}[!htb]
+\caption{Power Spectra of Digitally Mixed Signals, SSB vs DSB Edition}
+\centering
+\includegraphics[width=.75\textwidth]{roachmix.png}\end{figure}
+\subsection{FIR Filter Shape}
+\section{Analysis and Discussion}
+\subsection{The Process: What the Plots Convey}
+\subsection{Input to Output: Digital-Down Conversion}
+\section{Conclusion}
+\end{document}
+

@@ -1,0 +1,39 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+cosbram = np.fromfile('cos_bram',dtype=">i4")
+cosfft = np.fft.fftshift(np.fft.fft(cosbram))
+cosspec = (abs(cosfft))**2
+sinbram = np.fromfile('sin_bram',dtype=">i4")
+sinfft = np.fft.fftshift(np.fft.fft(sinbram))
+sinspec = (abs(sinfft))**2
+
+freq = np.fft.fftshift(np.fft.fftfreq(2048,5e-9))
+
+print np.array(cosspec) + np.array(sinspec)
+
+plt.figure(11)
+
+plt.subplot(311)
+plt.xlim(-60000000,60000000)
+plt.title('Cosine Output of "Clock Mixing"')
+plt.xlabel('Frequency (Hz)')
+plt.ylabel('Power at 0 dBm')
+plt.plot(freq,cosspec)
+
+plt.subplot(312)
+plt.title('Sine Output of "Clock Mixing"')
+plt.xlabel('Frequency (Hz)')
+plt.ylabel('Power at 0 dBm')
+plt.xlim(-60000000,60000000)
+plt.plot(freq,sinspec)
+
+plt.subplot(313)
+plt.title('Sine+Cosine Output of "Clock Mixing"')
+plt.xlabel('Frequency (Hz)')
+plt.ylabel('Power at 0 dBm')
+plt.xlim(-5000,5000)
+plt.plot(np.array(cosspec) + np.array(sinspec))
+
+plt.tight_layout()
+plt.show()

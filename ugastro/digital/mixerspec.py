@@ -1,0 +1,39 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+freq1 = np.fft.fftfreq(256,2.564e-7)
+freqshift1 = np.fft.fftshift(freq1)
+
+mix1 = np.load('mixer1.npz')
+mixer1 = mix1['arr_0']
+mixer1fft = np.fft.fft(mixer1)
+mixer1spec = (abs(mixer1fft))**2
+mixer1shift = np.fft.fftshift(mixer1spec)
+
+freq2 = np.fft.fftfreq(256,2.439e-7)
+freqshift2 = np.fft.fftshift(freq2)
+
+mix2 = np.load('mixer2.npz')
+mixer2 = mix2['arr_0']
+mixer2fft = np.fft.fft(mixer2)
+mixer2spec = (abs(mixer2fft))**2
+mixer2shift = np.fft.fftshift(mixer2spec)
+
+plt.figure(5)
+
+plt.subplot(211)
+plt.title(r'Analog Mixing for $\nu_{sig} = \nu_{lo} - \delta\nu, \nu_{s} = 4.1 MHz$',fontsize=14)
+plt.xlabel('Frequency (Hz)',fontsize=12)
+plt.ylabel('Power at 0 dBm',fontsize=12)
+plt.xlim(-2500000,2500000)
+plt.plot(freqshift1,mixer1shift)
+
+plt.subplot(212)
+plt.title(r'Analog Mixing for $\nu_{sig} = \nu_{lo} + \delta\nu, \nu_{s} = 3.9 MHz$',fontsize=14)
+plt.xlabel('Frequency (Hz)',fontsize=12)
+plt.ylabel('Power at 0 dBm',fontsize=12)
+plt.xlim(-2500000,2500000)
+plt.plot(freqshift2,mixer2shift)
+
+plt.tight_layout()
+plt.show()
