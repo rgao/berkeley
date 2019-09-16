@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.15)  15 SEP 2019 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.15)  15 SEP 2019 23:10
 entering extended mode
 **./lab_3.tex
 (lab_3.tex
@@ -283,11 +283,11 @@ File: geometric_delay.png Graphic file (type png)
 Package pdftex.def Info: geometric_delay.png  used on input line 172.
 (pdftex.def)             Requested size: 215.0023pt x 174.00668pt.
  [5 <./geometric_delay.png>]
-<crap.png, id=34, 1042.294pt x 1070.399pt>
-File: crap.png Graphic file (type png)
-<use crap.png>
-Package pdftex.def Info: crap.png  used on input line 235.
-(pdftex.def)             Requested size: 236.50385pt x 242.871pt.
+<power_period.png, id=34, 963.6pt x 722.7pt>
+File: power_period.png Graphic file (type png)
+<use power_period.png>
+Package pdftex.def Info: power_period.png  used on input line 235.
+(pdftex.def)             Requested size: 236.50385pt x 177.37732pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -298,57 +298,56 @@ File: visibility.png Graphic file (type png)
 <use visibility.png>
 Package pdftex.def Info: visibility.png  used on input line 288.
 (pdftex.def)             Requested size: 430.00462pt x 118.84853pt.
- [7 <./crap.png>] [8 <./visibility.png>] [9] [10]
-<sun.png, id=59, 586.8324pt x 442.2924pt>
+ [7 <./power_period.png>] [8 <./visibility.png>] [9] [10]
+<sun.png, id=58, 586.8324pt x 442.2924pt>
 File: sun.png Graphic file (type png)
 <use sun.png>
 Package pdftex.def Info: sun.png  used on input line 455.
 (pdftex.def)             Requested size: 387.00153pt x 291.68442pt.
- [11]
+ [11 <./sun.png>]
 <moon.png, id=63, 586.8324pt x 442.2924pt>
 File: moon.png Graphic file (type png)
 <use moon.png>
 Package pdftex.def Info: moon.png  used on input line 465.
 (pdftex.def)             Requested size: 387.00153pt x 291.68442pt.
- [12 <./sun.png>]
-<orion.png, id=68, 586.8324pt x 442.2924pt>
+<orion.png, id=64, 586.8324pt x 442.2924pt>
 File: orion.png Graphic file (type png)
 <use orion.png>
 Package pdftex.def Info: orion.png  used on input line 474.
 (pdftex.def)             Requested size: 387.00153pt x 291.68442pt.
 
-[13 <./moon.png>]
-<baseline.png, id=74, 849.1725pt x 442.2924pt>
+[12 <./moon.png>]
+<baseline.png, id=69, 849.1725pt x 442.2924pt>
 File: baseline.png Graphic file (type png)
 <use baseline.png>
 Package pdftex.def Info: baseline.png  used on input line 498.
 (pdftex.def)             Requested size: 430.00462pt x 223.96666pt.
- [14 <./orion.png>]
-<sun_fit.png, id=79, 691.6239pt x 442.2924pt>
+ [13 <./orion.png>]
+<sun_fit.png, id=75, 691.6239pt x 442.2924pt>
 File: sun_fit.png Graphic file (type png)
 <use sun_fit.png>
 Package pdftex.def Info: sun_fit.png  used on input line 526.
 (pdftex.def)             Requested size: 430.00462pt x 274.99457pt.
-<moon_fit.png, id=80, 792.8019pt x 442.2924pt>
+<moon_fit.png, id=76, 792.8019pt x 442.2924pt>
 File: moon_fit.png Graphic file (type png)
 <use moon_fit.png>
 Package pdftex.def Info: moon_fit.png  used on input line 532.
 (pdftex.def)             Requested size: 430.00462pt x 239.8939pt.
- [15 <./baseline.png>] [16 <./sun_fit.png>]
-<sun_MF.png, id=89, 744.381pt x 442.2924pt>
+ [14 <./baseline.png>] [15 <./sun_fit.png>]
+<sun_MF.png, id=85, 744.381pt x 442.2924pt>
 File: sun_MF.png Graphic file (type png)
 <use sun_MF.png>
 Package pdftex.def Info: sun_MF.png  used on input line 542.
 (pdftex.def)             Requested size: 430.00462pt x 255.4972pt.
-<moon_MF.png, id=90, 839.0547pt x 442.2924pt>
+<moon_MF.png, id=86, 839.0547pt x 442.2924pt>
 File: moon_MF.png Graphic file (type png)
 <use moon_MF.png>
 Package pdftex.def Info: moon_MF.png  used on input line 550.
 (pdftex.def)             Requested size: 430.00462pt x 226.67294pt.
-[17 <./moon_fit.png>] [18 <./sun_MF.png>] [19 <./moon_MF.png>] (lab_3.aux) ) 
+[16 <./moon_fit.png>] [17 <./sun_MF.png>] [18 <./moon_MF.png>] (lab_3.aux) ) 
 Here is how much of TeX's memory you used:
  2775 strings out of 492895
- 36839 string characters out of 3139100
+ 36879 string characters out of 3139100
  118762 words of memory out of 3000000
  6640 multiletter control sequences out of 15000+200000
  11472 words of font info for 41 fonts, out of 3000000 for 9000
@@ -368,9 +367,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/xingh/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmr7.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/xingh/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on lab_3.pdf (19 pages, 696812 bytes).
+Output written on lab_3.pdf (18 pages, 704431 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
