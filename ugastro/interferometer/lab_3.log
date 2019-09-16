@@ -1,82 +1,69 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=pdflatex 2014.3.5)  9 APR 2014 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.15)  15 SEP 2019 23:01
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**lab_3.tex
-(./lab_3.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nyn
-orsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbia
-nc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorb
-ian, welsh, loaded.
-(/usr/share/texmf/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+**./lab_3.tex
+(lab_3.tex
+LaTeX2e <2018-12-01>
+(D:\xingh\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(D:\xingh\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(D:\xingh\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(D:\xingh\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+(D:\xingh\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(D:\xingh\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(D:\xingh\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count88
-\leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count90
-\DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks15
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks16
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -88,61 +75,52 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
-(/usr/share/texmf/tex/latex/float/float.sty
+(D:\xingh\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count99
+\c@float@type=\count100
 \float@exts=\toks19
-\float@box=\box28
+\float@box=\box29
 \@float@everytoks=\toks20
-\@floatcapt=\box29
+\@floatcapt=\box30
 )
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(D:\xingh\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(D:\xingh\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(D:\xingh\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(D:\xingh\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(D:\xingh\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count100
+(D:\xingh\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/share/texmf/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(D:\xingh\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(D:\xingh\MiKTeX\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/usr/share/texmf/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(D:\xingh\MiKTeX\tex/generic/oberdiek\ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texmf/tex/generic/ifxetex/ifxetex.sty
+(D:\xingh\MiKTeX\tex/generic/ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count101
@@ -157,17 +135,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen120
 \Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks22
-)
-(/usr/share/texmf/tex/latex/tools/tabularx.sty
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texmf/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+(D:\xingh\MiKTeX\tex/latex/geometry\geometry.cfg))
+(D:\xingh\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(D:\xingh\MiKTeX\tex/latex/tools\array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen122
+\ar@mcellbox=\box31
 \extrarowheight=\dimen123
 \NC@list=\toks23
 \extratabsurround=\skip46
 \backup@length=\skip47
+\ar@cellbox=\box32
 )
 \TX@col@width=\dimen124
 \TX@old@table=\dimen125
@@ -176,7 +157,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@delta=\dimen128
 \TX@cols=\count104
 \TX@ftn=\toks24
-) (./lab_3.aux)
+) (lab_3.aux)
 \openout1 = `lab_3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -192,11 +173,11 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+(D:\xingh\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen129
-\scratchbox=\box30
+\scratchbox=\box33
 \nofMPsegments=\count106
 \nofMParguments=\count107
 \everyMPshowfont=\toks25
@@ -205,50 +186,49 @@ LaTeX Font Info:    ... okay on input line 7.
 \MPnumerator=\count109
 \makeMPintoPDFobject=\count110
 \everyMPtoPDFconversion=\toks26
-) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (D:\xingh\MiKTeX\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(D:\xingh\MiKTeX\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(D:\xingh\MiKTeX\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(D:\xingh\MiKTeX\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(D:\xingh\MiKTeX\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(D:\xingh\MiKTeX\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(D:\xingh\MiKTeX\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(D:\xingh\MiKTeX\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(D:\xingh\MiKTeX\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+))))
+(D:\xingh\MiKTeX\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -285,117 +265,112 @@ e
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<sidereal.png, id=10, 1239.832pt x 835.12pt>
+{C:/Users/xingh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<sidereal.png, id=9, 1239.832pt x 835.12pt>
 File: sidereal.png Graphic file (type png)
- <use sidereal.png>
-Package pdftex.def Info: sidereal.png used on input line 71.
+<use sidereal.png>
+Package pdftex.def Info: sidereal.png  used on input line 71.
 (pdftex.def)             Requested size: 279.50037pt x 188.26343pt.
-
-<coordinates_equatorial.png, id=12, 301.125pt x 301.125pt>
+<coordinates_equatorial.png, id=11, 301.125pt x 301.125pt>
 File: coordinates_equatorial.png Graphic file (type png)
-
 <use coordinates_equatorial.png>
-Package pdftex.def Info: coordinates_equatorial.png used on input line 100.
+Package pdftex.def Info: coordinates_equatorial.png  used on input line 100.
 (pdftex.def)             Requested size: 215.0023pt x 215.00867pt.
- [2 <./sidereal.png>] [3 <./coordinates_equatorial.png>] [4] <geometric_delay.p
-ng, id=31, 494.84875pt x 400.49625pt>
+ [2 <./sidereal.png>] [3 <./coordinates_equatorial.png>] [4]
+<geometric_delay.png, id=30, 494.84875pt x 400.49625pt>
 File: geometric_delay.png Graphic file (type png)
-
 <use geometric_delay.png>
-Package pdftex.def Info: geometric_delay.png used on input line 172.
+Package pdftex.def Info: geometric_delay.png  used on input line 172.
 (pdftex.def)             Requested size: 215.0023pt x 174.00668pt.
  [5 <./geometric_delay.png>]
-<crap2.png, id=35, 963.6pt x 722.7pt>
-File: crap2.png Graphic file (type png)
- <use crap2.png>
-Package pdftex.def Info: crap2.png used on input line 235.
-(pdftex.def)             Requested size: 236.50385pt x 177.37732pt.
+<crap.png, id=34, 1042.294pt x 1070.399pt>
+File: crap.png Graphic file (type png)
+<use crap.png>
+Package pdftex.def Info: crap.png  used on input line 235.
+(pdftex.def)             Requested size: 236.50385pt x 242.871pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] <visibility.png, id=39, 431.4519pt x 119.2455pt>
+[6]
+<visibility.png, id=38, 431.4519pt x 119.2455pt>
 File: visibility.png Graphic file (type png)
- <use visibility.png>
-Package pdftex.def Info: visibility.png used on input line 288.
+<use visibility.png>
+Package pdftex.def Info: visibility.png  used on input line 288.
 (pdftex.def)             Requested size: 430.00462pt x 118.84853pt.
-
-[7 <./crap2.png>] [8 <./visibility.png>] [9] [10]
+ [7 <./crap.png>] [8 <./visibility.png>] [9] [10]
 <sun.png, id=59, 586.8324pt x 442.2924pt>
 File: sun.png Graphic file (type png)
- <use sun.png>
-Package pdftex.def Info: sun.png used on input line 455.
+<use sun.png>
+Package pdftex.def Info: sun.png  used on input line 455.
 (pdftex.def)             Requested size: 387.00153pt x 291.68442pt.
- [11 <./sun.png>]
-<moon.png, id=64, 586.8324pt x 442.2924pt>
+ [11]
+<moon.png, id=63, 586.8324pt x 442.2924pt>
 File: moon.png Graphic file (type png)
- <use moon.png>
-Package pdftex.def Info: moon.png used on input line 465.
+<use moon.png>
+Package pdftex.def Info: moon.png  used on input line 465.
 (pdftex.def)             Requested size: 387.00153pt x 291.68442pt.
-
-<orion.png, id=65, 586.8324pt x 442.2924pt>
+ [12 <./sun.png>]
+<orion.png, id=68, 586.8324pt x 442.2924pt>
 File: orion.png Graphic file (type png)
- <use orion.png>
-Package pdftex.def Info: orion.png used on input line 474.
+<use orion.png>
+Package pdftex.def Info: orion.png  used on input line 474.
 (pdftex.def)             Requested size: 387.00153pt x 291.68442pt.
- [12 <./moon.png>]
-<baseline.png, id=70, 849.1725pt x 442.2924pt>
+
+[13 <./moon.png>]
+<baseline.png, id=74, 849.1725pt x 442.2924pt>
 File: baseline.png Graphic file (type png)
- <use baseline.png>
-Package pdftex.def Info: baseline.png used on input line 498.
+<use baseline.png>
+Package pdftex.def Info: baseline.png  used on input line 498.
 (pdftex.def)             Requested size: 430.00462pt x 223.96666pt.
- [13 <./orion.png>] <sun_fit.png, id=76, 691.6239pt x 442.2924pt>
+ [14 <./orion.png>]
+<sun_fit.png, id=79, 691.6239pt x 442.2924pt>
 File: sun_fit.png Graphic file (type png)
- <use sun_fit.png>
-Package pdftex.def Info: sun_fit.png used on input line 526.
+<use sun_fit.png>
+Package pdftex.def Info: sun_fit.png  used on input line 526.
 (pdftex.def)             Requested size: 430.00462pt x 274.99457pt.
-
-<moon_fit.png, id=77, 792.8019pt x 442.2924pt>
+<moon_fit.png, id=80, 792.8019pt x 442.2924pt>
 File: moon_fit.png Graphic file (type png)
- <use moon_fit.png>
-Package pdftex.def Info: moon_fit.png used on input line 532.
+<use moon_fit.png>
+Package pdftex.def Info: moon_fit.png  used on input line 532.
 (pdftex.def)             Requested size: 430.00462pt x 239.8939pt.
- [14 <./baseline.png>] [15 <./sun_fit.png>] <sun_MF.png, id=86, 744.381pt x 442
-.2924pt>
+ [15 <./baseline.png>] [16 <./sun_fit.png>]
+<sun_MF.png, id=89, 744.381pt x 442.2924pt>
 File: sun_MF.png Graphic file (type png)
-
 <use sun_MF.png>
-Package pdftex.def Info: sun_MF.png used on input line 542.
+Package pdftex.def Info: sun_MF.png  used on input line 542.
 (pdftex.def)             Requested size: 430.00462pt x 255.4972pt.
- <moon_MF.png, id=87, 839.0547pt x 442.2924pt>
+<moon_MF.png, id=90, 839.0547pt x 442.2924pt>
 File: moon_MF.png Graphic file (type png)
-
 <use moon_MF.png>
-Package pdftex.def Info: moon_MF.png used on input line 550.
+Package pdftex.def Info: moon_MF.png  used on input line 550.
 (pdftex.def)             Requested size: 430.00462pt x 226.67294pt.
- [16 <./moon_fit.png>] [17 <./sun_MF.png>] [18 <./moon_MF.png>] (./lab_3.aux) )
- 
+[17 <./moon_fit.png>] [18 <./sun_MF.png>] [19 <./moon_MF.png>] (lab_3.aux) ) 
 Here is how much of TeX's memory you used:
- 2794 strings out of 493607
- 37029 string characters out of 3149946
- 109413 words of memory out of 3500000
- 6056 multiletter control sequences out of 15000+200000
+ 2775 strings out of 492895
+ 36839 string characters out of 3139100
+ 118762 words of memory out of 3000000
+ 6640 multiletter control sequences out of 15000+200000
  11472 words of font info for 41 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 38i,24n,23p,377b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/a
-msfonts/cm/cmbx5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7.pfb
-></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texm
-f/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on lab_3.pdf (18 pages, 696677 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 41i,24n,25p,403b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:
+/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/xingh/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmbx5.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/xi
+ngh/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/xingh/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi5.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/xingh
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/xingh/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/xingh/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/xingh/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><D:/xingh/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/xingh/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on lab_3.pdf (19 pages, 696812 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
